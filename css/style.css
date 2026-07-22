@@ -2046,3 +2046,247 @@ footer {
 .map-popup-info tr:last-child td {
   border-bottom: none;
 }
+
+/* Dumbbell Chart Tooltip overrides & styles */
+.dumbbell-dot {
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.dumbbell-dot::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  transform: translateX(-50%) scale(0.85);
+  background: rgba(15, 23, 42, 0.95);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  z-index: 100;
+}
+
+.dumbbell-dot:hover {
+  transform: scale(1.2);
+}
+
+.dumbbell-dot:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) scale(1);
+}
+
+/* Glassmorphic Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  width: 90%;
+  max-width: 580px;
+  padding: 30px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  position: relative;
+  transform: scale(0.9);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.modal-overlay.active .modal-content {
+  transform: scale(1);
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: color 0.2s;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.modal-close-btn:hover {
+  color: var(--dark);
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Horizontal Timeline Stepper */
+.stepper-section {
+  margin-top: 50px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.stepper-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 25px;
+}
+
+.stepper-row {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.stepper-header {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--dark);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stepper-header::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--primary);
+}
+
+.stepper-steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  position: relative;
+}
+
+.stepper-step {
+  background: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.stepper-step:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.stepper-step::after {
+  content: '➔';
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  transform: translateY(-50%);
+  font-size: 1.1rem;
+  color: var(--primary);
+  opacity: 0.6;
+}
+
+.stepper-steps div:last-child.stepper-step::after {
+  display: none;
+}
+
+.step-phase {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+.step-phase.baseline {
+  background: rgba(100, 116, 139, 0.1);
+  color: #64748b;
+}
+
+.step-phase.midline {
+  background: rgba(30, 41, 59, 0.1);
+  color: #1e293b;
+}
+
+.step-phase.endline {
+  background: rgba(0, 153, 181, 0.1);
+  color: var(--primary);
+}
+
+.step-year {
+  font-size: 0.82rem;
+  font-weight: bold;
+  color: var(--text-light);
+  float: right;
+}
+
+.step-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.step-detail {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Dumbbell Row interactive hover effect */
+.dumbbell-row {
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.dumbbell-row:hover {
+  background-color: rgba(0, 153, 181, 0.04);
+}
+

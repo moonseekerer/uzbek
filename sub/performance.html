@@ -157,6 +157,7 @@
       </p>
 
       <!-- Region Tab Selection -->
+      <!-- Region Tab Selection -->
       <div class="performance-tabs">
         <button class="performance-tab active" data-target="tab-karakalpakstan">카라칼팍스탄 공화국</button>
         <button class="performance-tab" data-target="tab-kashkadarya">카슈카다리야 주</button>
@@ -168,7 +169,7 @@
           <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
             <div>
               <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--dark); margin-bottom: 4px;">카라칼팍스탄 공화국</h3>
-              <p style="font-size: 0.85rem; color: var(--text-light);">학생 디지털 역량 평균점수 변화 · 100점 환산</p>
+              <p style="font-size: 0.85rem; color: var(--text-light);">학생 디지털 역량 평균점수 변화 · 100점 환산 (행 클릭 시 상세 정보)</p>
             </div>
             <div class="dumbbell-header-kpi">
               <div class="kpi-card">
@@ -218,7 +219,7 @@
             </div>
 
             <!-- Row 1: H-01 Nukus -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="H-01">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge h-badge">H</span>
                 <span class="dumbbell-center-name">H-01 Nukus</span>
@@ -227,9 +228,9 @@
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 51 to 75 -->
                 <div class="dumbbell-line" style="left: 51%; width: 24%;"></div>
-                <!-- Dots -->
-                <div class="dumbbell-dot baseline" style="left: 51%;" title="기초선: 51점"></div>
-                <div class="dumbbell-dot midline" style="left: 75%;" title="중간선: 75점"></div>
+                <!-- Dots with hover tooltips -->
+                <div class="dumbbell-dot baseline" style="left: 51%;" data-tooltip="기초선: 51점"></div>
+                <div class="dumbbell-dot midline" style="left: 75%;" data-tooltip="중간선: 75점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+24점</span>
@@ -237,17 +238,17 @@
             </div>
 
             <!-- Row 2: L-01 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-01">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-01 센터</span>
+                <span class="dumbbell-center-name">L-01 센터 (케게일리)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 48 to 66 -->
                 <div class="dumbbell-line" style="left: 48%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 48%;"></div>
-                <div class="dumbbell-dot midline" style="left: 66%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 48%;" data-tooltip="기초선: 48점"></div>
+                <div class="dumbbell-dot midline" style="left: 66%;" data-tooltip="중간선: 66점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18점</span>
@@ -255,17 +256,17 @@
             </div>
 
             <!-- Row 3: L-02 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-02">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-02 센터</span>
+                <span class="dumbbell-center-name">L-02 센터 (칸리콜)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 52 to 70 -->
                 <div class="dumbbell-line" style="left: 52%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 52%;"></div>
-                <div class="dumbbell-dot midline" style="left: 70%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 52%;" data-tooltip="기초선: 52점"></div>
+                <div class="dumbbell-dot midline" style="left: 70%;" data-tooltip="중간선: 70점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18점</span>
@@ -273,17 +274,17 @@
             </div>
 
             <!-- Row 4: L-03 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-03">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-03 센터</span>
+                <span class="dumbbell-center-name">L-03 센터 (침바이)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 48 to 61 -->
                 <div class="dumbbell-line" style="left: 48%; width: 13%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 48%;"></div>
-                <div class="dumbbell-dot midline" style="left: 61%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 48%;" data-tooltip="기초선: 48점"></div>
+                <div class="dumbbell-dot midline" style="left: 61%;" data-tooltip="중간선: 61점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+13점</span>
@@ -291,17 +292,17 @@
             </div>
 
             <!-- Row 5: L-04 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-04">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-04 센터</span>
+                <span class="dumbbell-center-name">L-04 센터 (무이낙)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 54 to 69 -->
                 <div class="dumbbell-line" style="left: 54%; width: 15%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 54%;"></div>
-                <div class="dumbbell-dot midline" style="left: 69%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 54%;" data-tooltip="기초선: 54점"></div>
+                <div class="dumbbell-dot midline" style="left: 69%;" data-tooltip="중간선: 69점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+15점</span>
@@ -309,17 +310,17 @@
             </div>
 
             <!-- Row 6: L-05 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-05">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-05 센터</span>
+                <span class="dumbbell-center-name">L-05 센터 (타키아타쉬)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 52 to 63 -->
                 <div class="dumbbell-line" style="left: 52%; width: 11%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 52%;"></div>
-                <div class="dumbbell-dot midline" style="left: 63%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 52%;" data-tooltip="기초선: 52점"></div>
+                <div class="dumbbell-dot midline" style="left: 63%;" data-tooltip="중간선: 63점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+11점</span>
@@ -327,17 +328,17 @@
             </div>
 
             <!-- Row 7: L-06 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-06">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-06 센터</span>
+                <span class="dumbbell-center-name">L-06 센터 (호제일리)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 53 to 64 -->
                 <div class="dumbbell-line" style="left: 53%; width: 11%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 53%;"></div>
-                <div class="dumbbell-dot midline" style="left: 64%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 53%;" data-tooltip="기초선: 53점"></div>
+                <div class="dumbbell-dot midline" style="left: 64%;" data-tooltip="중간선: 64점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+11점</span>
@@ -345,17 +346,17 @@
             </div>
 
             <!-- Row 8: L-07 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-07">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-07 센터</span>
+                <span class="dumbbell-center-name">L-07 센터 (카라우지약)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Decline Line: 41 to 43 (goes backwards) -->
                 <div class="dumbbell-line" style="left: 41%; width: 2%; background-color: #ea580c;"></div>
-                <div class="dumbbell-dot baseline" style="left: 43%;"></div>
-                <div class="dumbbell-dot decline" style="left: 41%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 43%;" data-tooltip="기초선: 43점"></div>
+                <div class="dumbbell-dot decline" style="left: 41%;" data-tooltip="중간선: 41점"></div>
               </div>
               <div class="dumbbell-change down">
                 <span>▼</span><span>-2점</span>
@@ -371,7 +372,7 @@
           <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
             <div>
               <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--dark); margin-bottom: 4px;">카슈카다리야 주</h3>
-              <p style="font-size: 0.85rem; color: var(--text-light);">학생 디지털 역량 평균점수 변화 · 100점 환산</p>
+              <p style="font-size: 0.85rem; color: var(--text-light);">학생 디지털 역량 평균점수 변화 · 100점 환산 (행 클릭 시 상세 정보)</p>
             </div>
             <div class="dumbbell-header-kpi">
               <div class="kpi-card">
@@ -421,7 +422,7 @@
             </div>
 
             <!-- Row 1: H-02 Karshi -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="H-02">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge h-badge">H</span>
                 <span class="dumbbell-center-name">H-02 Karshi</span>
@@ -430,8 +431,8 @@
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 50 to 76 -->
                 <div class="dumbbell-line" style="left: 50%; width: 26%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 50%;"></div>
-                <div class="dumbbell-dot midline" style="left: 76%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 50%;" data-tooltip="기초선: 50점"></div>
+                <div class="dumbbell-dot midline" style="left: 76%;" data-tooltip="중간선: 76점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+26점</span>
@@ -439,17 +440,17 @@
             </div>
 
             <!-- Row 2: L-08 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-08">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-08 센터</span>
+                <span class="dumbbell-center-name">L-08 센터 (샤흐리사브즈)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 46 to 64 -->
                 <div class="dumbbell-line" style="left: 46%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 46%;"></div>
-                <div class="dumbbell-dot midline" style="left: 64%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 46%;" data-tooltip="기초선: 46점"></div>
+                <div class="dumbbell-dot midline" style="left: 64%;" data-tooltip="중간선: 64점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18점</span>
@@ -457,17 +458,17 @@
             </div>
 
             <!-- Row 3: L-09 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-09">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-09 센터</span>
+                <span class="dumbbell-center-name">L-09 센터 (키타브)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 48 to 66 -->
                 <div class="dumbbell-line" style="left: 48%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 48%;"></div>
-                <div class="dumbbell-dot midline" style="left: 66%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 48%;" data-tooltip="기초선: 48점"></div>
+                <div class="dumbbell-dot midline" style="left: 66%;" data-tooltip="중간선: 66점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18점</span>
@@ -475,17 +476,17 @@
             </div>
 
             <!-- Row 4: L-10 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-10">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-10 센터</span>
+                <span class="dumbbell-center-name">L-10 센터 (구자르)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 50 to 65 -->
                 <div class="dumbbell-line" style="left: 50%; width: 15%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 50%;"></div>
-                <div class="dumbbell-dot midline" style="left: 65%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 50%;" data-tooltip="기초선: 50점"></div>
+                <div class="dumbbell-dot midline" style="left: 65%;" data-tooltip="중간선: 65점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+15점</span>
@@ -493,17 +494,17 @@
             </div>
 
             <!-- Row 5: L-11 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-11">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-11 센터</span>
+                <span class="dumbbell-center-name">L-11 센터 (카마시)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 52 to 66 -->
                 <div class="dumbbell-line" style="left: 52%; width: 14%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 52%;"></div>
-                <div class="dumbbell-dot midline" style="left: 66%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 52%;" data-tooltip="기초선: 52점"></div>
+                <div class="dumbbell-dot midline" style="left: 66%;" data-tooltip="중간선: 66점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+14점</span>
@@ -511,17 +512,17 @@
             </div>
 
             <!-- Row 6: L-12 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-12">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-12 센터</span>
+                <span class="dumbbell-center-name">L-12 센터 (치라크치)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 47 to 59 -->
                 <div class="dumbbell-line" style="left: 47%; width: 12%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 47%;"></div>
-                <div class="dumbbell-dot midline" style="left: 59%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 47%;" data-tooltip="기초선: 47점"></div>
+                <div class="dumbbell-dot midline" style="left: 59%;" data-tooltip="중간선: 59점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+12점</span>
@@ -529,17 +530,17 @@
             </div>
 
             <!-- Row 7: L-13 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-13">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-13 센터</span>
+                <span class="dumbbell-center-name">L-13 센터 (니샨)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 51 to 62 -->
                 <div class="dumbbell-line" style="left: 51%; width: 11%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 51%;"></div>
-                <div class="dumbbell-dot midline" style="left: 62%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 51%;" data-tooltip="기초선: 51점"></div>
+                <div class="dumbbell-dot midline" style="left: 62%;" data-tooltip="중간선: 62점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+11점</span>
@@ -547,17 +548,17 @@
             </div>
 
             <!-- Row 8: L-14 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-14">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-14 센터</span>
+                <span class="dumbbell-center-name">L-14 센터 (카산)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
                 <!-- Line: 49 to 54 -->
                 <div class="dumbbell-line" style="left: 49%; width: 5%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 49%;"></div>
-                <div class="dumbbell-dot midline" style="left: 54%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 49%;" data-tooltip="기초선: 49점"></div>
+                <div class="dumbbell-dot midline" style="left: 54%;" data-tooltip="중간선: 54점"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+5점</span>
@@ -566,7 +567,89 @@
           </div>
         </div>
       </div>
+
+      <!-- PDM Timeline Stepper Section -->
+      <div class="stepper-section">
+        <h3 style="font-size: 1.3rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+          📊 IT 인프라 및 기자재 구축 진척 로드맵 (PDM 기준)
+        </h3>
+        <p style="font-size: 0.88rem; color: var(--text-secondary);">
+          사업 성과 관리 기준(PDM)에 명시된 건축 리모델링(Activity 1.1) 및 기자재 조달 지원(Activity 1.2)의 마일스톤별 구축 진척 계획입니다.
+        </p>
+
+        <div class="stepper-wrapper">
+          <!-- Stepper 1: Activity 1.1 -->
+          <div class="stepper-row">
+            <div class="stepper-header">
+              Activity 1.1: 디지털 교육센터 건축 및 리모델링 구축 단계
+            </div>
+            <div class="stepper-steps">
+              <!-- Step 1 -->
+              <div class="stepper-step">
+                <span class="step-phase baseline">Baseline</span>
+                <span class="step-year">2025~2026</span>
+                <div class="step-title">0개 센터 구축 (준비 단계)</div>
+                <div class="step-detail">대상 지역 16개 센터 부지 적격성 정밀 조사 및 설계 도면 검토 완료.</div>
+              </div>
+              <!-- Step 2 -->
+              <div class="stepper-step">
+                <span class="step-phase midline">Midline</span>
+                <span class="step-year">2027~2028</span>
+                <div class="step-title">리모델링 & 신축 완공</div>
+                <div class="step-detail">2개 H형 리모델링 완공(27.3Q) 및 14개 L형 신축 완공(28.4Q) 및 PIU 이관 준비.</div>
+              </div>
+              <!-- Step 3 -->
+              <div class="stepper-step">
+                <span class="step-phase endline">Endline</span>
+                <span class="step-year">2032</span>
+                <div class="step-title">16개 센터 자립 운영</div>
+                <div class="step-detail">우즈베키스탄 정부 자체 예산을 통한 16개소 IT 센터의 완전한 자립 운영 달성.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stepper 2: Activity 1.2 -->
+          <div class="stepper-row">
+            <div class="stepper-header">
+              Activity 1.2: 교육센터 기자재 조달 및 표준 보급 단계
+            </div>
+            <div class="stepper-steps">
+              <!-- Step 1 -->
+              <div class="stepper-step">
+                <span class="step-phase baseline">Baseline</span>
+                <span class="step-year">2025~2026</span>
+                <div class="step-title">기자재 보급률 0%</div>
+                <div class="step-detail">IT 교육과정 매핑을 토대로 표준 기자재 스펙 설계 및 PIU 조달 위원회 심의 지원.</div>
+              </div>
+              <!-- Step 2 -->
+              <div class="stepper-step">
+                <span class="step-phase midline">Midline</span>
+                <span class="step-year">2027~2028</span>
+                <div class="step-title">기자재 100% 설치 완료</div>
+                <div class="step-detail">H형 및 L형 전체 16개교 기자재 납품, 합동 설치 검수 완료(28.4Q) 및 기자재 대장 등록.</div>
+              </div>
+              <!-- Step 3 -->
+              <div class="stepper-step">
+                <span class="step-phase endline">Endline</span>
+                <span class="step-year">2032</span>
+                <div class="step-title">유지보수 자립화 달성</div>
+                <div class="step-detail">수원국 자체 운영 비용으로 소모품 교체 및 감가상각 대응 교체 주기 정립.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+  </div>
+
+  <!-- Detail Info Modal overlay -->
+  <div id="detail-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close">&times;</button>
+      <div id="modal-body-content">
+        <!-- Content will be injected by JavaScript -->
+      </div>
+    </div>
   </div>
 
   <!-- Footer Section -->
@@ -625,8 +708,8 @@
 
   <script src="../js/main.js"></script>
   <script>
-    // Tab Toggling Functionality
     document.addEventListener('DOMContentLoaded', () => {
+      // Tab Toggling Functionality
       const tabs = document.querySelectorAll('.performance-tab');
       const contents = document.querySelectorAll('.performance-tab-content');
 
@@ -639,6 +722,110 @@
           const target = tab.dataset.target;
           document.getElementById(target).classList.add('active');
         });
+      });
+
+      // Center Data Store
+      const centerData = {
+        'H-01': {
+          name: 'H-01 Nukus Hub 센터',
+          type: 'Hub형 (거점)',
+          region: '카라칼팍스탄 공화국 누쿠스시',
+          students: '누적 240명 수료',
+          courses: '디지털 리터러시, Python 코딩, IoT 기본 제어, 모바일 앱 기획',
+          equipment: '교육용 일체형 PC 40대, 실습용 IoT 키트 20세트, 3D 프린터 2대, 서버 실습 장비 1식',
+          utilization: '88%',
+          desc: '카라칼팍스탄 공화국의 거점 센터로서 인근 7개 Local형 IT Village의 ToT(강사양성) 교육을 총괄하며 고급 기술 실무 과정을 주도적으로 운영합니다.'
+        },
+        'H-02': {
+          name: 'H-02 Karshi Hub 센터',
+          type: 'Hub형 (거점)',
+          region: '카슈카다리야 주 카르시시',
+          students: '누적 320명 수료',
+          courses: '디지털 문해, 웹 프론트엔드, Java 백엔드 개발, 클라우드 가상화 및 정보보안 기초',
+          equipment: '고성능 컴퓨터 60대, 사물인터넷 실무 실습 장비 25세트, Maker Space 시제품 3D 가공 장비, 클라이언트-서버 랙 2식',
+          utilization: '92%',
+          desc: '카슈카다리야 주 거점 센터로서 지상 2층 총 1,100㎡ 규모의 전용 교육장을 활용하여 취창업 네트워킹 행사, 기업 데모데이 및 멘토 양성 과정을 지원합니다.'
+        },
+        'L-01': { name: 'L-01 케게일리 센터', type: 'Local형 (일반)', region: '카라칼팍스탄 케게일리 구', students: '누적 95명 수료', courses: '컴퓨터 실무 기초, MS Office 오피스웨어 실무, 스크래치 알고리즘 코딩', equipment: '학습용 PC 20대, 레이저 프린터 1대, 빔프로젝터 및 오디오 시스템 1식', utilization: '82%', desc: '케게일리 소도시 청소년을 위한 풀뿌리 기초 IT 리터러시 전용 신축 단층 교육 시설입니다.' },
+        'L-02': { name: 'L-02 칸리콜 센터', type: 'Local형 (일반)', region: '카라칼팍스탄 칸리콜 구', students: '누적 88명 수료', courses: '컴퓨터 실무 기초, MS Office 오피스웨어 실무, 기초 알고리즘 코딩', equipment: '학습용 PC 20대, 레이저 프린터 1대, 빔프로젝터 1식', utilization: '78%', desc: '칸리콜 지역 청소년의 디지털 리터러시 함양을 집중 지원합니다.' },
+        'L-03': { name: 'L-03 침바이 센터', type: 'Local형 (일반)', region: '카라칼팍스탄 침바이 구', students: '누적 110명 수료', courses: '컴퓨터 실무 기초, 오피스 문서 활용, 알고리즘 및 엔트리 코딩', equipment: '학습용 PC 20대, 프린터 1대, 빔프로젝터 1식', utilization: '85%', desc: '침바이 지역의 높은 청소년 IT 수요에 맞춰 기초 코딩 및 실무 활용 과정을 활발히 운영 중입니다.' },
+        'L-04': { name: 'L-04 무이낙 센터', type: 'Local형 (일반)', region: '카라칼팍스탄 무이낙 구', students: '누적 72명 수료', courses: '컴퓨터 활용 능력, 문서 작성 실무, 기초 알고리즘', equipment: '학습용 PC 20대, 프린터 1대, 빔프로젝터 1식', utilization: '80%', desc: '아랄해 인근 소외지역인 무이낙 청소년들의 IT 접근성을 대폭 개선한 신축 교육센터입니다.' },
+        'L-05': { name: 'L-05 타키아타쉬 센터', type: 'Local형 (일반)', region: '카라칼팍스탄 타키아타쉬 구', students: '누적 98명 수료', courses: '정규 IT 리터러시, 오피스 실무, 스크래치 알고리즘', equipment: '학습용 PC 20대, 프린터 1대, 빔프로젝터 1식', utilization: '84%', desc: '공업 지대 인근 타키아타쉬 청소년들의 취업 기본 디지털 소양 강화를 목표로 합니다.' },
+        'L-06': { name: 'L-06 호제일리 센터', type: 'Local형 (일반)', region: '카라칼팍스탄 호제일리 구', students: '누적 104명 수료', courses: '컴퓨터 기초 지식, 엑셀/파워포인트 실무, 코딩 알고리즘 입문', equipment: '학습용 PC 20대, 프린터 1대, 빔프로젝터 1식', utilization: '83%', desc: '호제일리 지역 청소년들의 자발적인 스터디 소모임 및 컴퓨터 기초 실습 교육을 지원합니다.' },
+        'L-07': { name: 'L-07 카라우지약 센터', type: 'Local형 (일반)', region: '카라칼팍스탄 카라우지약 구', students: '누적 40명 수료', courses: '컴퓨터 활용 능력 기초, 문서 작성', equipment: '학습용 PC 18대, 프린터 1대, 빔프로젝터 1식', utilization: '74%', desc: '농촌 인구 비중이 높은 카라우지약 지역 특성에 맞춰 일대일 맞춤형 IT 밀착 지도를 실행하고 있습니다.' },
+        'L-08': { name: 'L-08 샤흐리사브즈 센터', type: 'Local형 (일반)', region: '카슈카다리야 샤흐리사브즈 구', students: '누적 112명 수료', courses: '컴퓨터 기본 기술, MS Office 실무 활용, 엔트리/스크래치 기초 코딩', equipment: '학습용 PC 20대, 멀티 복합기 1대, 빔프로젝터 및 화이트보드 1식', utilization: '86%', desc: '관광 자원이 풍부한 샤흐리사브즈 청소년들의 비즈니스 디지털 역량 강화를 전담합니다.' },
+        'L-09': { name: 'L-09 키타브 센터', type: 'Local형 (일반)', region: '카슈카다리야 키타브 구', students: '누적 105명 수료', courses: '컴퓨터 기본 기술, MS Office 실무 활용, 엔트리/스크래치 기초 코딩', equipment: '학습용 PC 20대, 프린터 1대, 빔프로젝터 1식', utilization: '85%', desc: '키타브 교육 소외 계층 청소년들의 IT 접근성을 위한 중심 공간 역할을 수행합니다.' },
+        'L-10': { name: 'L-10 구자르 센터', type: 'Local형 (일반)', region: '카슈카다리야 구자르 구', students: '누적 92명 수료', courses: '디지털 문해, 컴퓨터 기초 활용, 스크래치 알고리즘 코딩', equipment: '학습용 PC 20대, 프린터 1대, 빔프로젝터 1식', utilization: '81%', desc: '구자르 지역 거주 청소년들의 기본 컴퓨터 문해 격차 해소에 역점을 두고 있습니다.' },
+        'L-11': { name: 'L-11 카마시 센터', type: 'Local형 (일반)', region: '카슈카다리야 카마시 구', students: '누적 98명 수료', courses: '디지털 문해, 컴퓨터 기초 활용, 스크래치 알고리즘 코딩', equipment: '학습용 PC 20대, 프린터 1대, 빔프로젝터 1식', utilization: '84%', desc: '카마시 구 내 학교 연계 방과후 IT 교실을 신축 센터에서 적극 전개하고 있습니다.' },
+        'L-12': { name: 'L-12 치라크치 센터', type: 'Local형 (일반)', region: '카슈카다리야 치라크치 구', students: '누적 124명 수료', courses: '정규 IT 리터러시, 오피스 문서 실무, 초급 알고리즘 입문', equipment: '학습용 PC 20대, 프린터 1대, 빔프로젝터 1식', utilization: '88%', desc: '대상 인구수가 많은 치라크치 구에서 활발하게 기초/중급 연계 실무 교육을 실행 중입니다.' },
+        'L-13': { name: 'L-13 니샨 센터', type: 'Local형 (일반)', region: '카슈카다리야 니샨 구', students: '누적 86명 수료', courses: '컴퓨터 기본 활용, MS 오피스 파워 유저, 스크래치 입문', equipment: '학습용 PC 20대, 프린터 1대, 빔프로젝터 1식', utilization: '79%', desc: '국경 인접 소도시인 니샨 구 내 청소년들의 디지털 격차 완화용 거점 교실입니다.' },
+        'L-14': { name: 'L-14 카산 센터', type: 'Local형 (일반)', region: '카슈카다리야 카산 구', students: '누적 79명 수료', courses: '컴퓨터 기본 활용, 오피스 문서 실무, 기초 알고리즘', equipment: '학습용 PC 20대, 프린터 1대, 빔프로젝터 1식', utilization: '77%', desc: '카산 구 내에 거주하는 소외계층 청소년을 위한 무료 디지털 교실을 순차 보급하여 상시 가동 중입니다.' }
+      };
+
+      const modal = document.getElementById('detail-modal');
+      const modalContent = document.getElementById('modal-body-content');
+      const modalClose = document.getElementById('modal-close');
+
+      // Add click listeners to rows
+      document.querySelectorAll('.dumbbell-row').forEach(row => {
+        row.addEventListener('click', () => {
+          const centerId = row.dataset.center;
+          const data = centerData[centerId];
+          if (!data) return;
+
+          modalContent.innerHTML = `
+            <div style="border-bottom: 2px solid var(--primary); padding-bottom: 12px; margin-bottom: 20px;">
+              <span style="font-size: 0.8rem; font-weight: bold; text-transform: uppercase; color: var(--primary); letter-spacing: 0.05em; display: block; margin-bottom: 4px;">${data.type}</span>
+              <h3 style="font-size: 1.4rem; font-weight: 800; color: var(--dark); margin: 0;">${data.name}</h3>
+            </div>
+            
+            <div style="display: flex; flex-direction: column; gap: 15px; font-size: 0.88rem; line-height: 1.6;">
+              <div>
+                <strong style="color: var(--dark); display: block; margin-bottom: 2px;">📍 센터 위치</strong>
+                <span style="color: var(--text-secondary);">${data.region}</span>
+              </div>
+              
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                <div>
+                  <strong style="color: var(--dark); display: block; margin-bottom: 2px;">👥 교육 진척 현황</strong>
+                  <span style="color: var(--text-secondary);">${data.students}</span>
+                </div>
+                <div>
+                  <strong style="color: var(--dark); display: block; margin-bottom: 2px;">⚙️ 기자재 가동률</strong>
+                  <span style="color: var(--text-secondary);">${data.utilization} (정상 작동)</span>
+                </div>
+              </div>
+              
+              <div>
+                <strong style="color: var(--dark); display: block; margin-bottom: 2px;">📚 개설 교육과정</strong>
+                <span style="color: var(--text-secondary);">${data.courses}</span>
+              </div>
+              
+              <div>
+                <strong style="color: var(--dark); display: block; margin-bottom: 2px;">💻 도입 기자재 주요 품목</strong>
+                <span style="color: var(--text-secondary);">${data.equipment}</span>
+              </div>
+              
+              <div style="background: rgba(0, 153, 181, 0.05); padding: 12px 16px; border-radius: 8px; border-left: 4px solid var(--primary); margin-top: 10px;">
+                <strong style="color: var(--primary); display: block; margin-bottom: 4px; font-size: 0.9rem;">ℹ️ 세부 안내 및 운영 상황</strong>
+                <p style="margin: 0; color: var(--text-secondary); font-size: 0.85rem;">${data.desc}</p>
+              </div>
+            </div>
+          `;
+
+          modal.classList.add('active');
+        });
+      });
+
+      // Close modal actions
+      modalClose.addEventListener('click', () => {
+        modal.classList.remove('active');
+      });
+
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.remove('active');
+        }
       });
     });
   </script>

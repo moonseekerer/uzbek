@@ -157,6 +157,7 @@
       </p>
 
       <!-- Region Tab Selection -->
+      <!-- Region Tab Selection -->
       <div class="performance-tabs">
         <button class="performance-tab active" data-target="tab-karakalpakstan">Qoraqalpog'iston Respublikasi</button>
         <button class="performance-tab" data-target="tab-kashkadarya">Qashqadaryo viloyati</button>
@@ -168,7 +169,7 @@
           <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
             <div>
               <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--dark); margin-bottom: 4px;">Qoraqalpog'iston Respublikasi</h3>
-              <p style="font-size: 0.85rem; color: var(--text-light);">O'quvchilar raqamli salohiyati o'rtacha ballarining o'zgarishi · 100 ballik shkala asosida</p>
+              <p style="font-size: 0.85rem; color: var(--text-light);">O'quvchilar raqamli salohiyati o'rtacha ballarining o'zgarishi · 100 ballik shkala (Batafsil ma'lumot uchun qatorga bosing)</p>
             </div>
             <div class="dumbbell-header-kpi">
               <div class="kpi-card">
@@ -218,16 +219,18 @@
             </div>
 
             <!-- Row 1: H-01 Nukus -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="H-01">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge h-badge">H</span>
                 <span class="dumbbell-center-name">H-01 Nukus</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 51 to 75 -->
                 <div class="dumbbell-line" style="left: 51%; width: 24%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 51%;" title="Dastlabki: 51"></div>
-                <div class="dumbbell-dot midline" style="left: 75%;" title="Oraliq: 75"></div>
+                <!-- Dots with hover tooltips -->
+                <div class="dumbbell-dot baseline" style="left: 51%;" data-tooltip="Dastlabki: 51 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 75%;" data-tooltip="Oraliq: 75 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+24 b.</span>
@@ -235,16 +238,17 @@
             </div>
 
             <!-- Row 2: L-01 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-01">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-01 markazi</span>
+                <span class="dumbbell-center-name">L-01 markazi (Kegeyli)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 48 to 66 -->
                 <div class="dumbbell-line" style="left: 48%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 48%;"></div>
-                <div class="dumbbell-dot midline" style="left: 66%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 48%;" data-tooltip="Dastlabki: 48 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 66%;" data-tooltip="Oraliq: 66 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18 b.</span>
@@ -252,16 +256,17 @@
             </div>
 
             <!-- Row 3: L-02 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-02">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-02 markazi</span>
+                <span class="dumbbell-center-name">L-02 markazi (Qonliko'l)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 52 to 70 -->
                 <div class="dumbbell-line" style="left: 52%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 52%;"></div>
-                <div class="dumbbell-dot midline" style="left: 70%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 52%;" data-tooltip="Dastlabki: 52 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 70%;" data-tooltip="Oraliq: 70 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18 b.</span>
@@ -269,16 +274,17 @@
             </div>
 
             <!-- Row 4: L-03 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-03">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-03 markazi</span>
+                <span class="dumbbell-center-name">L-03 markazi (Chimboy)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 48 to 61 -->
                 <div class="dumbbell-line" style="left: 48%; width: 13%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 48%;"></div>
-                <div class="dumbbell-dot midline" style="left: 61%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 48%;" data-tooltip="Dastlabki: 48 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 61%;" data-tooltip="Oraliq: 61 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+13 b.</span>
@@ -286,16 +292,17 @@
             </div>
 
             <!-- Row 5: L-04 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-04">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-04 markazi</span>
+                <span class="dumbbell-center-name">L-04 markazi (Mo'ynoq)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 54 to 69 -->
                 <div class="dumbbell-line" style="left: 54%; width: 15%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 54%;"></div>
-                <div class="dumbbell-dot midline" style="left: 69%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 54%;" data-tooltip="Dastlabki: 54 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 69%;" data-tooltip="Oraliq: 69 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+15 b.</span>
@@ -303,16 +310,17 @@
             </div>
 
             <!-- Row 6: L-05 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-05">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-05 markazi</span>
+                <span class="dumbbell-center-name">L-05 markazi (Taxiatosh)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 52 to 63 -->
                 <div class="dumbbell-line" style="left: 52%; width: 11%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 52%;"></div>
-                <div class="dumbbell-dot midline" style="left: 63%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 52%;" data-tooltip="Dastlabki: 52 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 63%;" data-tooltip="Oraliq: 63 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+11 b.</span>
@@ -320,16 +328,17 @@
             </div>
 
             <!-- Row 7: L-06 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-06">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-06 markazi</span>
+                <span class="dumbbell-center-name">L-06 markazi (Xo'jayli)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 53 to 64 -->
                 <div class="dumbbell-line" style="left: 53%; width: 11%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 53%;"></div>
-                <div class="dumbbell-dot midline" style="left: 64%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 53%;" data-tooltip="Dastlabki: 53 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 64%;" data-tooltip="Oraliq: 64 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+11 b.</span>
@@ -337,16 +346,17 @@
             </div>
 
             <!-- Row 8: L-07 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-07">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-07 markazi</span>
+                <span class="dumbbell-center-name">L-07 markazi (Qorao'zak)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Decline Line: 41 to 43 (goes backwards) -->
                 <div class="dumbbell-line" style="left: 41%; width: 2%; background-color: #ea580c;"></div>
-                <div class="dumbbell-dot baseline" style="left: 43%;"></div>
-                <div class="dumbbell-dot decline" style="left: 41%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 43%;" data-tooltip="Dastlabki: 43 ball"></div>
+                <div class="dumbbell-dot decline" style="left: 41%;" data-tooltip="Oraliq: 41 ball"></div>
               </div>
               <div class="dumbbell-change down">
                 <span>▼</span><span>-2 b.</span>
@@ -362,7 +372,7 @@
           <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
             <div>
               <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--dark); margin-bottom: 4px;">Qashqadaryo viloyati</h3>
-              <p style="font-size: 0.85rem; color: var(--text-light);">O'quvchilar raqamli salohiyati o'rtacha ballarining o'zgarishi · 100 ballik shkala asosida</p>
+              <p style="font-size: 0.85rem; color: var(--text-light);">O'quvchilar raqamli salohiyati o'rtacha ballarining o'zgarishi · 100 ballik shkala (Batafsil ma'lumot uchun qatorga bosing)</p>
             </div>
             <div class="dumbbell-header-kpi">
               <div class="kpi-card">
@@ -412,16 +422,17 @@
             </div>
 
             <!-- Row 1: H-02 Karshi -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="H-02">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge h-badge">H</span>
                 <span class="dumbbell-center-name">H-02 Qarshi</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 50 to 76 -->
                 <div class="dumbbell-line" style="left: 50%; width: 26%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 50%;"></div>
-                <div class="dumbbell-dot midline" style="left: 76%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 50%;" data-tooltip="Dastlabki: 50 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 76%;" data-tooltip="Oraliq: 76 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+26 b.</span>
@@ -429,16 +440,17 @@
             </div>
 
             <!-- Row 2: L-08 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-08">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-08 markazi</span>
+                <span class="dumbbell-center-name">L-08 markazi (Shahrisabz)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 46 to 64 -->
                 <div class="dumbbell-line" style="left: 46%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 46%;"></div>
-                <div class="dumbbell-dot midline" style="left: 64%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 46%;" data-tooltip="Dastlabki: 46 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 64%;" data-tooltip="Oraliq: 64 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18 b.</span>
@@ -446,16 +458,17 @@
             </div>
 
             <!-- Row 3: L-09 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-09">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-09 markazi</span>
+                <span class="dumbbell-center-name">L-09 markazi (Kitob)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 48 to 66 -->
                 <div class="dumbbell-line" style="left: 48%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 48%;"></div>
-                <div class="dumbbell-dot midline" style="left: 66%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 48%;" data-tooltip="Dastlabki: 48 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 66%;" data-tooltip="Oraliq: 66 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18 b.</span>
@@ -463,16 +476,17 @@
             </div>
 
             <!-- Row 4: L-10 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-10">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-10 markazi</span>
+                <span class="dumbbell-center-name">L-10 markazi (G'uzor)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 50 to 65 -->
                 <div class="dumbbell-line" style="left: 50%; width: 15%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 50%;"></div>
-                <div class="dumbbell-dot midline" style="left: 65%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 50%;" data-tooltip="Dastlabki: 50 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 65%;" data-tooltip="Oraliq: 65 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+15 b.</span>
@@ -480,16 +494,17 @@
             </div>
 
             <!-- Row 5: L-11 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-11">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-11 markazi</span>
+                <span class="dumbbell-center-name">L-11 markazi (Kamashi)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 52 to 66 -->
                 <div class="dumbbell-line" style="left: 52%; width: 14%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 52%;"></div>
-                <div class="dumbbell-dot midline" style="left: 66%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 52%;" data-tooltip="Dastlabki: 52 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 66%;" data-tooltip="Oraliq: 66 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+14 b.</span>
@@ -497,16 +512,17 @@
             </div>
 
             <!-- Row 6: L-12 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-12">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-12 markazi</span>
+                <span class="dumbbell-center-name">L-12 markazi (Chiroqchi)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 47 to 59 -->
                 <div class="dumbbell-line" style="left: 47%; width: 12%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 47%;"></div>
-                <div class="dumbbell-dot midline" style="left: 59%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 47%;" data-tooltip="Dastlabki: 47 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 59%;" data-tooltip="Oraliq: 59 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+12 b.</span>
@@ -514,16 +530,17 @@
             </div>
 
             <!-- Row 7: L-13 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-13">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-13 markazi</span>
+                <span class="dumbbell-center-name">L-13 markazi (Nishon)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 51 to 62 -->
                 <div class="dumbbell-line" style="left: 51%; width: 11%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 51%;"></div>
-                <div class="dumbbell-dot midline" style="left: 62%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 51%;" data-tooltip="Dastlabki: 51 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 62%;" data-tooltip="Oraliq: 62 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+11 b.</span>
@@ -531,16 +548,17 @@
             </div>
 
             <!-- Row 8: L-14 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-14">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-14 markazi</span>
+                <span class="dumbbell-center-name">L-14 markazi (Koson)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 49 to 54 -->
                 <div class="dumbbell-line" style="left: 49%; width: 5%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 49%;"></div>
-                <div class="dumbbell-dot midline" style="left: 54%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 49%;" data-tooltip="Dastlabki: 49 ball"></div>
+                <div class="dumbbell-dot midline" style="left: 54%;" data-tooltip="Oraliq: 54 ball"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+5 b.</span>
@@ -549,7 +567,89 @@
           </div>
         </div>
       </div>
+
+      <!-- PDM Timeline Stepper Section -->
+      <div class="stepper-section">
+        <h3 style="font-size: 1.3rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+          📊 IT infratuzilmasi va uskunalar yetkazib berish yo'l xaritasi (PDM standarti)
+        </h3>
+        <p style="font-size: 0.88rem; color: var(--text-secondary);">
+          PDMda belgilangan binolarni rekonstruksiya qilish (Activity 1.1) va uskunalar xaridini qo'llab-quvvatlash (Activity 1.2) bosqichlari rejasi.
+        </p>
+
+        <div class="stepper-wrapper">
+          <!-- Stepper 1: Activity 1.1 -->
+          <div class="stepper-row">
+            <div class="stepper-header">
+              Activity 1.1: Raqamli ta'lim markazi qurilishi va rekonstruksiya bosqichi
+            </div>
+            <div class="stepper-steps">
+              <!-- Step 1 -->
+              <div class="stepper-step">
+                <span class="step-phase baseline">Baseline</span>
+                <span class="step-year">2025~2026</span>
+                <div class="step-title">0 ta markaz (Tayyorgarlik)</div>
+                <div class="step-detail">Maqsadli 16 ta markaz uchun yer tanlash va bino loyihalarini ko'rib chiqish yakunlandi.</div>
+              </div>
+              <!-- Step 2 -->
+              <div class="stepper-step">
+                <span class="step-phase midline">Midline</span>
+                <span class="step-year">2027~2028</span>
+                <div class="step-title">Rekonstruksiya va Qurilish</div>
+                <div class="step-detail">2 ta Hub markazi rekonstruksiyasi (2027 Q3) va 14 ta Local markazlari qurilishi yakunlandi (2028 Q4).</div>
+              </div>
+              <!-- Step 3 -->
+              <div class="stepper-step">
+                <span class="step-phase endline">Endline</span>
+                <span class="step-year">2032</span>
+                <div class="step-title">16 ta markaz mustaqil ishlaydi</div>
+                <div class="step-detail">O'zbekiston hukumati o'z byudjeti hisobidan 16 ta IT markazini 100% mustaqil boshqaradi.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stepper 2: Activity 1.2 -->
+          <div class="stepper-row">
+            <div class="stepper-header">
+              Activity 1.2: IT uskunalarini xarid qilish va yetkazib berish bosqichi
+            </div>
+            <div class="stepper-steps">
+              <!-- Step 1 -->
+              <div class="stepper-step">
+                <span class="step-phase baseline">Baseline</span>
+                <span class="step-year">2025~2026</span>
+                <div class="step-title">Xarid ko'rsatkichi: 0%</div>
+                <div class="step-detail">IT darsliklari asosida uskunalar texnik parametrlari tayyorlandi va tenderga tayyorlandi.</div>
+              </div>
+              <!-- Step 2 -->
+              <div class="stepper-step">
+                <span class="step-phase midline">Midline</span>
+                <span class="step-year">2027~2028</span>
+                <div class="step-title">100% yetkazib berildi</div>
+                <div class="step-detail">Jami 16 ta markazga uskunalar yetkazildi, o'rnatildi va birgalikda tekshirildi (2028 Q4).</div>
+              </div>
+              <!-- Step 3 -->
+              <div class="stepper-step">
+                <span class="step-phase endline">Endline</span>
+                <span class="step-year">2032</span>
+                <div class="step-title">Uskunalarni mustaqil yangilash</div>
+                <div class="step-detail">Hukumat tomonidan uskunalar amortizatsiyasi va ehtiyot qismlarni mustaqil sotib olish byudjeti shakllantirildi.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+  </div>
+
+  <!-- Detail Info Modal overlay -->
+  <div id="detail-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close">&times;</button>
+      <div id="modal-body-content">
+        <!-- Content will be injected by JavaScript -->
+      </div>
+    </div>
   </div>
 
   <!-- Footer Section -->
@@ -608,8 +708,8 @@
 
   <script src="../../js/main.js"></script>
   <script>
-    // Tab Toggling Functionality
     document.addEventListener('DOMContentLoaded', () => {
+      // Tab Toggling Functionality
       const tabs = document.querySelectorAll('.performance-tab');
       const contents = document.querySelectorAll('.performance-tab-content');
 
@@ -622,6 +722,110 @@
           const target = tab.dataset.target;
           document.getElementById(target).classList.add('active');
         });
+      });
+
+      // Center Data Store
+      const centerData = {
+        'H-01': {
+          name: 'H-01 Nukus Hub markazi',
+          type: 'Hub turi (Hududiy)',
+          region: 'Nukus shahri, Qoraqalpog\'iston Respublikasi',
+          students: 'Jami 240 bitiruvchi',
+          courses: 'Raqamli savodxonlik, Python dasturlash, IoT asoslari, Mobil ilovalar yaratish',
+          equipment: '40 ta All-in-One kompyuterlar, 20 ta IoT to\'plamlari, 2 ta 3D printerlar, 1 ta Server qurilmasi',
+          utilization: '88%',
+          desc: 'Qoraqalpog\'iston uchun asosiy markaz bo\'lib, 7 ta yaqin atrofdagi Local IT Village o\'qituvchilarini tayyorlash (ToT) kurslarini tashkil qiladi.'
+        },
+        'H-02': {
+          name: 'H-02 Qarshi Hub markazi',
+          type: 'Hub turi (Hududiy)',
+          region: 'Qarshi shahri, Qashqadaryo viloyati',
+          students: 'Jami 320 bitiruvchi',
+          courses: 'Raqamli savodxonlik, Veb-Frontend, Java Backend, Bulutli texnologiyalar va Kiberxavfsizlik',
+          equipment: '60 ta yuqori quvvatli shaxsiy kompyuterlar, 25 ta IoT to\'plamlari, Maker Space 3D prototiplash mashinalari, 2 ta Server raklari',
+          utilization: '92%',
+          desc: 'Qashqadaryo viloyatining asosiy markazi sifatida 2 qavatli 1100㎡ maydonda startap tadbirlari, demo-kunlar va mentorlik kurslarini o\'tkazadi.'
+        },
+        'L-01': { name: 'L-01 Kegeyli markazi', type: 'Local turi (Umumiy)', region: 'Kegeyli tumani, Qoraqalpog\'iston', students: 'Jami 95 bitiruvchi', courses: 'Kompyuter asoslari, MS Office dasturlari, Scratch kodlash', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor va akustika tizimi', utilization: '82%', desc: 'Kegeyli tumani yoshlariga boshlang\'ich raqamli savodxonlik beradigan yangi qurilgan bino.' },
+        'L-02': { name: 'L-02 Qonliko\'l markazi', type: 'Local turi (Umumiy)', region: 'Qonliko\'l tumani, Qoraqalpog\'iston', students: 'Jami 88 bitiruvchi', courses: 'Kompyuter asoslari, MS Office dasturlari, Boshlang\'ich algoritmlar', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '78%', desc: 'Qonliko\'l tumani yoshlarining raqamli savodxonligini oshirish markazi.' },
+        'L-03': { name: 'L-03 Chimboy markazi', type: 'Local turi (Umumiy)', region: 'Chimboy tumani, Qoraqalpog\'iston', students: 'Jami 110 bitiruvchi', courses: 'Kompyuter asoslari, Office dasturlari, Entry kodlash', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '85%', desc: 'Hududdagi yuqori IT ehtiyojlarini qondirish uchun kodlash va ofis dasturlari darslarini olib boradi.' },
+        'L-04': { name: 'L-04 Mo\'ynoq markazi', type: 'Local turi (Umumiy)', region: 'Mo\'ynoq tumani, Qoraqalpog\'iston', students: 'Jami 72 bitiruvchi', courses: 'Kompyuter savodxonligi, Hujjatlar bilan ishlash, Boshlang\'ich algoritmlar', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '80%', desc: 'Orolbo\'yi hududi yoshlari uchun IT imkoniyatini ochgan yangi qurilgan markaz.' },
+        'L-05': { name: 'L-05 Taxiatosh markazi', type: 'Local turi (Umumiy)', region: 'Taxiatosh tumani, Qoraqalpog\'iston', students: 'Jami 98 bitiruvchi', courses: 'Raqamli savodxonlik kurslari, Office amaliyotlari, Scratch kodlash', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '84%', desc: 'Sanoat hududi yoshlarini ishga tayyorlash uchun zarur raqamli bilimlar o\'rgatiladi.' },
+        'L-06': { name: 'L-06 Xo\'jayli markazi', type: 'Local turi (Umumiy)', region: 'Xo\'jayli tumani, Qoraqalpog\'iston', students: 'Jami 104 bitiruvchi', courses: 'Kompyuter savodxonligi, Excel/PowerPoint, Algoritmlar', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '83%', desc: 'Xo\'jayli tumani yoshlarining guruhli va mustaqil ta\'lim faoliyatini qo\'llab-quvvatlaydi.' },
+        'L-07': { name: 'L-07 Qorao\'zak markazi', type: 'Local turi (Umumiy)', region: 'Qorao\'zak tumani, Qoraqalpog\'iston', students: 'Jami 40 bitiruvchi', courses: 'Kompyuter savodxonligi asoslari, Hujjatlar yozish', equipment: '18 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '74%', desc: 'Qishloq xo\'jaligi ko\'p bo\'lgan tuman yoshlariga mos moslashtirilgan darslar olib boradi.' },
+        'L-08': { name: 'L-08 Shahrisabz markazi', type: 'Local turi (Umumiy)', region: 'Shahrisabz tumani, Qashqadaryo', students: 'Jami 112 bitiruvchi', courses: 'Kompyuter ko\'nikmalari, Office amaliyotlari, Kodlash asoslari', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta ko\'p funksiyali printer, 1 ta proyektor', utilization: '86%', desc: 'Turistik hudud hisoblangan Shahrisabz yoshlarining biznes raqamli bilimini oshiradi.' },
+        'L-09': { name: 'L-09 Kitob markazi', type: 'Local turi (Umumiy)', region: 'Kitob tumani, Qashqadaryo', students: 'Jami 105 bitiruvchi', courses: 'Kompyuter ko\'nikmalari, Office amaliyotlari, Kodlash asoslari', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '85%', desc: 'Kitob tumanidagi IT ta\'limiga muhtoj yoshlar uchun markaziy nuqta hisoblanadi.' },
+        'L-10': { name: 'L-10 G\'uzor markazi', type: 'Local turi (Umumiy)', region: 'G\'uzor tumani, Qashqadaryo', students: 'Jami 92 bitiruvchi', courses: 'Raqamli savodxonlik, MS Office, Scratch kodlash', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '81%', desc: 'G\'uzor tumani yoshlarining raqamli savodxonligi o\'rtasidagi farqni kamaytirishga xizmat qiladi.' },
+        'L-11': { name: 'L-11 Kamashi markazi', type: 'Local turi (Umumiy)', region: 'Kamashi tumani, Qashqadaryo', students: 'Jami 98 bitiruvchi', courses: 'Raqamli savodxonlik, MS Office, Scratch kodlash', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '84%', desc: 'Maktablar bilan hamkorlikda darsdan tashqari to\'garaklar olib boradi.' },
+        'L-12': { name: 'L-12 Chiroqchi markazi', type: 'Local turi (Umumiy)', region: 'Chiroqchi tumani, Qashqadaryo', students: 'Jami 124 bitiruvchi', courses: 'Raqamli savodxonlik, Office dasturlari, Boshlang\'ich algoritmlar', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '88%', desc: 'Chiroqchi tumani yoshlarining yuqori IT ehtiyojlarini qondirish uchun keng ko\'lamli kurslar olib boradi.' },
+        'L-13': { name: 'L-13 Nishon markazi', type: 'Local turi (Umumiy)', region: 'Nishon tumani, Qashqadaryo', students: 'Jami 86 bitiruvchi', courses: 'Kompyuter amaliyotlari, MS Office Power User, Scratch kodlash', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '79%', desc: 'Chegara hududida joylashgan yoshlar o\'rtasidagi raqamli tafovutni yumshatishga xizmat qiladi.' },
+        'L-14': { name: 'L-14 Koson markazi', type: 'Local turi (Umumiy)', region: 'Koson tumani, Qashqadaryo', students: 'Jami 79 bitiruvchi', courses: 'Kompyuter asoslari, Office amaliyotlari, Boshlang\'ich algoritmlar', equipment: '20 ta o\'quvchi kompyuterlari, 1 ta printer, 1 ta proyektor', utilization: '77%', desc: 'Koson tumanida istiqomat qiluvchi kam ta\'minlangan oilalar yoshlariga bepul IT darslari o\'tadi.' }
+      };
+
+      const modal = document.getElementById('detail-modal');
+      const modalContent = document.getElementById('modal-body-content');
+      const modalClose = document.getElementById('modal-close');
+
+      // Add click listeners to rows
+      document.querySelectorAll('.dumbbell-row').forEach(row => {
+        row.addEventListener('click', () => {
+          const centerId = row.dataset.center;
+          const data = centerData[centerId];
+          if (!data) return;
+
+          modalContent.innerHTML = `
+            <div style="border-bottom: 2px solid var(--primary); padding-bottom: 12px; margin-bottom: 20px;">
+              <span style="font-size: 0.8rem; font-weight: bold; text-transform: uppercase; color: var(--primary); letter-spacing: 0.05em; display: block; margin-bottom: 4px;">${data.type}</span>
+              <h3 style="font-size: 1.4rem; font-weight: 800; color: var(--dark); margin: 0;">${data.name}</h3>
+            </div>
+            
+            <div style="display: flex; flex-direction: column; gap: 15px; font-size: 0.88rem; line-height: 1.6;">
+              <div>
+                <strong style="color: var(--dark); display: block; margin-bottom: 2px;">📍 Markaz joylashuvi</strong>
+                <span style="color: var(--text-secondary);">${data.region}</span>
+              </div>
+              
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                <div>
+                  <strong style="color: var(--dark); display: block; margin-bottom: 2px;">👥 O'qish taraqqiyoti</strong>
+                  <span style="color: var(--text-secondary);">${data.students}</span>
+                </div>
+                <div>
+                  <strong style="color: var(--dark); display: block; margin-bottom: 2px;">⚙️ Uskunalar va jihozlar</strong>
+                  <span style="color: var(--text-secondary);">${data.utilization} (Faol)</span>
+                </div>
+              </div>
+              
+              <div>
+                <strong style="color: var(--dark); display: block; margin-bottom: 2px;">📚 Ochiq kurslar</strong>
+                <span style="color: var(--text-secondary);">${data.courses}</span>
+              </div>
+              
+              <div>
+                <strong style="color: var(--dark); display: block; margin-bottom: 2px;">💻 Joriylangan asosiy uskunalar</strong>
+                <span style="color: var(--text-secondary);">${data.equipment}</span>
+              </div>
+              
+              <div style="background: rgba(0, 153, 181, 0.05); padding: 12px 16px; border-radius: 8px; border-left: 4px solid var(--primary); margin-top: 10px;">
+                <strong style="color: var(--primary); display: block; margin-bottom: 4px; font-size: 0.9rem;">ℹ️ Ish faoliyati va batafsil ma'lumot</strong>
+                <p style="margin: 0; color: var(--text-secondary); font-size: 0.85rem;">${data.desc}</p>
+              </div>
+            </div>
+          `;
+
+          modal.classList.add('active');
+        });
+      });
+
+      // Close modal actions
+      modalClose.addEventListener('click', () => {
+        modal.classList.remove('active');
+      });
+
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.remove('active');
+        }
       });
     });
   </script>

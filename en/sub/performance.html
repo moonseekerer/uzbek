@@ -157,6 +157,7 @@
       </p>
 
       <!-- Region Tab Selection -->
+      <!-- Region Tab Selection -->
       <div class="performance-tabs">
         <button class="performance-tab active" data-target="tab-karakalpakstan">Republic of Karakalpakstan</button>
         <button class="performance-tab" data-target="tab-kashkadarya">Kashkadarya Region</button>
@@ -168,7 +169,7 @@
           <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
             <div>
               <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--dark); margin-bottom: 4px;">Republic of Karakalpakstan</h3>
-              <p style="font-size: 0.85rem; color: var(--text-light);">Student digital competency average score changes · 100-point scale</p>
+              <p style="font-size: 0.85rem; color: var(--text-light);">Student digital competency average score changes · 100-point scale (Click row for details)</p>
             </div>
             <div class="dumbbell-header-kpi">
               <div class="kpi-card">
@@ -218,16 +219,18 @@
             </div>
 
             <!-- Row 1: H-01 Nukus -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="H-01">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge h-badge">H</span>
                 <span class="dumbbell-center-name">H-01 Nukus</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 51 to 75 -->
                 <div class="dumbbell-line" style="left: 51%; width: 24%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 51%;" title="Baseline: 51"></div>
-                <div class="dumbbell-dot midline" style="left: 75%;" title="Midline: 75"></div>
+                <!-- Dots with hover tooltips -->
+                <div class="dumbbell-dot baseline" style="left: 51%;" data-tooltip="Baseline: 51 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 75%;" data-tooltip="Midline: 75 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+24 pts</span>
@@ -235,16 +238,17 @@
             </div>
 
             <!-- Row 2: L-01 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-01">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-01 Center</span>
+                <span class="dumbbell-center-name">L-01 Center (Kegeyli)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 48 to 66 -->
                 <div class="dumbbell-line" style="left: 48%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 48%;"></div>
-                <div class="dumbbell-dot midline" style="left: 66%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 48%;" data-tooltip="Baseline: 48 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 66%;" data-tooltip="Midline: 66 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18 pts</span>
@@ -252,16 +256,17 @@
             </div>
 
             <!-- Row 3: L-02 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-02">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-02 Center</span>
+                <span class="dumbbell-center-name">L-02 Center (Kanlikul)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 52 to 70 -->
                 <div class="dumbbell-line" style="left: 52%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 52%;"></div>
-                <div class="dumbbell-dot midline" style="left: 70%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 52%;" data-tooltip="Baseline: 52 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 70%;" data-tooltip="Midline: 70 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18 pts</span>
@@ -269,16 +274,17 @@
             </div>
 
             <!-- Row 4: L-03 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-03">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-03 Center</span>
+                <span class="dumbbell-center-name">L-03 Center (Chimbay)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 48 to 61 -->
                 <div class="dumbbell-line" style="left: 48%; width: 13%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 48%;"></div>
-                <div class="dumbbell-dot midline" style="left: 61%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 48%;" data-tooltip="Baseline: 48 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 61%;" data-tooltip="Midline: 61 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+13 pts</span>
@@ -286,16 +292,17 @@
             </div>
 
             <!-- Row 5: L-04 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-04">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-04 Center</span>
+                <span class="dumbbell-center-name">L-04 Center (Muynak)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 54 to 69 -->
                 <div class="dumbbell-line" style="left: 54%; width: 15%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 54%;"></div>
-                <div class="dumbbell-dot midline" style="left: 69%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 54%;" data-tooltip="Baseline: 54 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 69%;" data-tooltip="Midline: 69 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+15 pts</span>
@@ -303,16 +310,17 @@
             </div>
 
             <!-- Row 6: L-05 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-05">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-05 Center</span>
+                <span class="dumbbell-center-name">L-05 Center (Takhiatash)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 52 to 63 -->
                 <div class="dumbbell-line" style="left: 52%; width: 11%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 52%;"></div>
-                <div class="dumbbell-dot midline" style="left: 63%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 52%;" data-tooltip="Baseline: 52 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 63%;" data-tooltip="Midline: 63 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+11 pts</span>
@@ -320,16 +328,17 @@
             </div>
 
             <!-- Row 7: L-06 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-06">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-06 Center</span>
+                <span class="dumbbell-center-name">L-06 Center (Khodjeyli)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 53 to 64 -->
                 <div class="dumbbell-line" style="left: 53%; width: 11%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 53%;"></div>
-                <div class="dumbbell-dot midline" style="left: 64%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 53%;" data-tooltip="Baseline: 53 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 64%;" data-tooltip="Midline: 64 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+11 pts</span>
@@ -337,16 +346,17 @@
             </div>
 
             <!-- Row 8: L-07 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-07">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-07 Center</span>
+                <span class="dumbbell-center-name">L-07 Center (Karauzyak)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Decline Line: 41 to 43 (goes backwards) -->
                 <div class="dumbbell-line" style="left: 41%; width: 2%; background-color: #ea580c;"></div>
-                <div class="dumbbell-dot baseline" style="left: 43%;"></div>
-                <div class="dumbbell-dot decline" style="left: 41%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 43%;" data-tooltip="Baseline: 43 pts"></div>
+                <div class="dumbbell-dot decline" style="left: 41%;" data-tooltip="Midline: 41 pts"></div>
               </div>
               <div class="dumbbell-change down">
                 <span>▼</span><span>-2 pts</span>
@@ -362,7 +372,7 @@
           <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
             <div>
               <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--dark); margin-bottom: 4px;">Kashkadarya Region</h3>
-              <p style="font-size: 0.85rem; color: var(--text-light);">Student digital competency average score changes · 100-point scale</p>
+              <p style="font-size: 0.85rem; color: var(--text-light);">Student digital competency average score changes · 100-point scale (Click row for details)</p>
             </div>
             <div class="dumbbell-header-kpi">
               <div class="kpi-card">
@@ -412,16 +422,17 @@
             </div>
 
             <!-- Row 1: H-02 Karshi -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="H-02">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge h-badge">H</span>
                 <span class="dumbbell-center-name">H-02 Karshi</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 50 to 76 -->
                 <div class="dumbbell-line" style="left: 50%; width: 26%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 50%;"></div>
-                <div class="dumbbell-dot midline" style="left: 76%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 50%;" data-tooltip="Baseline: 50 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 76%;" data-tooltip="Midline: 76 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+26 pts</span>
@@ -429,16 +440,17 @@
             </div>
 
             <!-- Row 2: L-08 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-08">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-08 Center</span>
+                <span class="dumbbell-center-name">L-08 Center (Shahrisabz)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 46 to 64 -->
                 <div class="dumbbell-line" style="left: 46%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 46%;"></div>
-                <div class="dumbbell-dot midline" style="left: 64%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 46%;" data-tooltip="Baseline: 46 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 64%;" data-tooltip="Midline: 64 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18 pts</span>
@@ -446,16 +458,17 @@
             </div>
 
             <!-- Row 3: L-09 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-09">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-09 Center</span>
+                <span class="dumbbell-center-name">L-09 Center (Kitab)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 48 to 66 -->
                 <div class="dumbbell-line" style="left: 48%; width: 18%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 48%;"></div>
-                <div class="dumbbell-dot midline" style="left: 66%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 48%;" data-tooltip="Baseline: 48 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 66%;" data-tooltip="Midline: 66 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+18 pts</span>
@@ -463,16 +476,17 @@
             </div>
 
             <!-- Row 4: L-10 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-10">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-10 Center</span>
+                <span class="dumbbell-center-name">L-10 Center (Guzar)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 50 to 65 -->
                 <div class="dumbbell-line" style="left: 50%; width: 15%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 50%;"></div>
-                <div class="dumbbell-dot midline" style="left: 65%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 50%;" data-tooltip="Baseline: 50 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 65%;" data-tooltip="Midline: 65 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+15 pts</span>
@@ -480,16 +494,17 @@
             </div>
 
             <!-- Row 5: L-11 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-11">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-11 Center</span>
+                <span class="dumbbell-center-name">L-11 Center (Kamashi)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 52 to 66 -->
                 <div class="dumbbell-line" style="left: 52%; width: 14%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 52%;"></div>
-                <div class="dumbbell-dot midline" style="left: 66%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 52%;" data-tooltip="Baseline: 52 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 66%;" data-tooltip="Midline: 66 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+14 pts</span>
@@ -497,16 +512,17 @@
             </div>
 
             <!-- Row 6: L-12 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-12">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-12 Center</span>
+                <span class="dumbbell-center-name">L-12 Center (Chirakchi)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 47 to 59 -->
                 <div class="dumbbell-line" style="left: 47%; width: 12%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 47%;"></div>
-                <div class="dumbbell-dot midline" style="left: 59%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 47%;" data-tooltip="Baseline: 47 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 59%;" data-tooltip="Midline: 59 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+12 pts</span>
@@ -514,16 +530,17 @@
             </div>
 
             <!-- Row 7: L-13 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-13">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-13 Center</span>
+                <span class="dumbbell-center-name">L-13 Center (Nishan)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 51 to 62 -->
                 <div class="dumbbell-line" style="left: 51%; width: 11%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 51%;"></div>
-                <div class="dumbbell-dot midline" style="left: 62%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 51%;" data-tooltip="Baseline: 51 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 62%;" data-tooltip="Midline: 62 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+11 pts</span>
@@ -531,16 +548,17 @@
             </div>
 
             <!-- Row 8: L-14 -->
-            <div class="dumbbell-row">
+            <div class="dumbbell-row" data-center="L-14">
               <div class="dumbbell-center-info">
                 <span class="dumbbell-badge l-badge">L</span>
-                <span class="dumbbell-center-name">L-14 Center</span>
+                <span class="dumbbell-center-name">L-14 Center (Kasan)</span>
               </div>
               <div class="dumbbell-track-wrapper">
                 <div class="dumbbell-track-bg"></div>
+                <!-- Line: 49 to 54 -->
                 <div class="dumbbell-line" style="left: 49%; width: 5%;"></div>
-                <div class="dumbbell-dot baseline" style="left: 49%;"></div>
-                <div class="dumbbell-dot midline" style="left: 54%;"></div>
+                <div class="dumbbell-dot baseline" style="left: 49%;" data-tooltip="Baseline: 49 pts"></div>
+                <div class="dumbbell-dot midline" style="left: 54%;" data-tooltip="Midline: 54 pts"></div>
               </div>
               <div class="dumbbell-change up">
                 <span>▲</span><span>+5 pts</span>
@@ -549,7 +567,89 @@
           </div>
         </div>
       </div>
+
+      <!-- PDM Timeline Stepper Section -->
+      <div class="stepper-section">
+        <h3 style="font-size: 1.3rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+          📊 IT Infrastructure & Equipment Supply Roadmap (PDM standard)
+        </h3>
+        <p style="font-size: 0.88rem; color: var(--text-secondary);">
+          Milestone plans for building remodeling (Activity 1.1) and equipment procurement support (Activity 1.2) specified in the PDM.
+        </p>
+
+        <div class="stepper-wrapper">
+          <!-- Stepper 1: Activity 1.1 -->
+          <div class="stepper-row">
+            <div class="stepper-header">
+              Activity 1.1: Digital Education Center Building & Remodeling Phase
+            </div>
+            <div class="stepper-steps">
+              <!-- Step 1 -->
+              <div class="stepper-step">
+                <span class="step-phase baseline">Baseline</span>
+                <span class="step-year">2025~2026</span>
+                <div class="step-title">0 Centers (Preparation)</div>
+                <div class="step-detail">Property suitability surveys and blueprint design reviews completed for all 16 target centers.</div>
+              </div>
+              <!-- Step 2 -->
+              <div class="stepper-step">
+                <span class="step-phase midline">Midline</span>
+                <span class="step-year">2027~2028</span>
+                <div class="step-title">Remodeling & Construction</div>
+                <div class="step-detail">2 Hub centers remodeled (Q3 2027) & 14 Local centers built (Q4 2028), preparing for co-management.</div>
+              </div>
+              <!-- Step 3 -->
+              <div class="stepper-step">
+                <span class="step-phase endline">Endline</span>
+                <span class="step-year">2032</span>
+                <div class="step-title">16 Centers Self-Operated</div>
+                <div class="step-detail">Uzbekistan government budget secured for 16 IT centers to achieve 100% self-reliance.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stepper 2: Activity 1.2 -->
+          <div class="stepper-row">
+            <div class="stepper-header">
+              Activity 1.2: IT Equipment Procurement & Standard Supply Phase
+            </div>
+            <div class="stepper-steps">
+              <!-- Step 1 -->
+              <div class="stepper-step">
+                <span class="step-phase baseline">Baseline</span>
+                <span class="step-year">2025~2026</span>
+                <div class="step-title">Procurement Rate: 0%</div>
+                <div class="step-detail">Draft specifications prepared for standard IT equipment, supporting PIU procurement review.</div>
+              </div>
+              <!-- Step 2 -->
+              <div class="stepper-step">
+                <span class="step-phase midline">Midline</span>
+                <span class="step-year">2027~2028</span>
+                <div class="step-title">100% Supplied & Installed</div>
+                <div class="step-detail">Delivery, assembly, and joint inspections completed for all 16 centers (Q4 2028).</div>
+              </div>
+              <!-- Step 3 -->
+              <div class="stepper-step">
+                <span class="step-phase endline">Endline</span>
+                <span class="step-year">2032</span>
+                <div class="step-title">Self-Reliant Cycles</div>
+                <div class="step-detail">Secured host country operational budgets for spare parts, upgrades, and replacement cycles.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+  </div>
+
+  <!-- Detail Info Modal overlay -->
+  <div id="detail-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close">&times;</button>
+      <div id="modal-body-content">
+        <!-- Content will be injected by JavaScript -->
+      </div>
+    </div>
   </div>
 
   <!-- Footer Section -->
@@ -608,8 +708,8 @@
 
   <script src="../../js/main.js"></script>
   <script>
-    // Tab Toggling Functionality
     document.addEventListener('DOMContentLoaded', () => {
+      // Tab Toggling Functionality
       const tabs = document.querySelectorAll('.performance-tab');
       const contents = document.querySelectorAll('.performance-tab-content');
 
@@ -622,6 +722,110 @@
           const target = tab.dataset.target;
           document.getElementById(target).classList.add('active');
         });
+      });
+
+      // Center Data Store
+      const centerData = {
+        'H-01': {
+          name: 'H-01 Nukus Hub Center',
+          type: 'Hub Type (Regional)',
+          region: 'Nukus City, Republic of Karakalpakstan',
+          students: 'Cumulative 240 Graduates',
+          courses: 'Digital Literacy, Python Coding, IoT Basic Control, Mobile App Planning',
+          equipment: '40 All-in-One PCs, 20 IoT Kits, 2 3D Printers, 1 Server Training Unit',
+          utilization: '88%',
+          desc: 'As the core hub for Karakalpakstan, it coordinates ToT (Trainer training) for 7 nearby Local IT Villages and hosts advanced technical curricula.'
+        },
+        'H-02': {
+          name: 'H-02 Karshi Hub Center',
+          type: 'Hub Type (Regional)',
+          region: 'Karshi City, Kashkadarya Region',
+          students: 'Cumulative 320 Graduates',
+          courses: 'Digital Literacy, Web Frontend, Java Backend Development, Cloud Virtualization & Cybersecurity',
+          equipment: '60 High-performance PCs, 25 IoT Kits, 3D Prototyping Systems (Maker Space), 2 Client-Server Racks',
+          utilization: '92%',
+          desc: 'Serving as the regional hub with 1,100㎡ across 2 floors, it hosts startup networking events, demo days, and advanced mentor training courses.'
+        },
+        'L-01': { name: 'L-01 Kegeyli Center', type: 'Local Type (General)', region: 'Kegeyli District, Karakalpakstan', students: 'Cumulative 95 Graduates', courses: 'Computer Basics, MS Office Suite, Scratch Algorithm Coding', equipment: '20 Student PCs, 1 Laser Printer, 1 Projector & Sound System', utilization: '82%', desc: 'A newly constructed 1-story IT village center providing basic digital literacy to youth in Kegeyli.' },
+        'L-02': { name: 'L-02 Kanlikul Center', type: 'Local Type (General)', region: 'Kanlikul District, Karakalpakstan', students: 'Cumulative 88 Graduates', courses: 'Computer Basics, MS Office Suite, Basic Algorithms', equipment: '20 Student PCs, 1 Laser Printer, 1 Projector', utilization: '78%', desc: 'Focuses on elevating standard digital literacy for youth in Kanlikul district.' },
+        'L-03': { name: 'L-03 Chimbay Center', type: 'Local Type (General)', region: 'Chimbay District, Karakalpakstan', students: 'Cumulative 110 Graduates', courses: 'Computer Basics, Office Applications, Entry Coding', equipment: '20 Student PCs, 1 Printer, 1 Projector', utilization: '85%', desc: 'Actively running basic coding and office literacy courses corresponding to high local youth demand.' },
+        'L-04': { name: 'L-04 Muynak Center', type: 'Local Type (General)', region: 'Muynak District, Karakalpakstan', students: 'Cumulative 72 Graduates', courses: 'Computer Competency, Document Drafting, Basic Algorithms', equipment: '20 Student PCs, 1 Printer, 1 Projector', utilization: '80%', desc: 'Significantly improves IT access for youth in Muynak, an underserved region near the Aral Sea.' },
+        'L-05': { name: 'L-05 Takhiatash Center', type: 'Local Type (General)', region: 'Takhiatash District, Karakalpakstan', students: 'Cumulative 98 Graduates', courses: 'Regular IT Literacy, Office Applications, Scratch Coding', equipment: '20 Student PCs, 1 Printer, 1 Projector', utilization: '84%', desc: 'Aims to strengthen essential digital skills for career readiness near the industrial district.' },
+        'L-06': { name: 'L-06 Khodjeyli Center', type: 'Local Type (General)', region: 'Khodjeyli District, Karakalpakstan', students: 'Cumulative 104 Graduates', courses: 'Computer Literacy, Excel/PowerPoint, Coding Algorithms', equipment: '20 Student PCs, 1 Printer, 1 Projector', utilization: '83%', desc: 'Supports youth study groups and basic computer exercises in Khodjeyli district.' },
+        'L-07': { name: 'L-07 Karauzyak Center', type: 'Local Type (General)', region: 'Karauzyak District, Karakalpakstan', students: 'Cumulative 40 Graduates', courses: 'Basic Computer Competency, Document Writing', equipment: '18 Student PCs, 1 Printer, 1 Projector', utilization: '74%', desc: 'Tailors basic digital literacy to local farming communities with close instructor mentoring.' },
+        'L-08': { name: 'L-08 Shahrisabz Center', type: 'Local Type (General)', region: 'Shahrisabz District, Kashkadarya', students: 'Cumulative 112 Graduates', courses: 'Computer Skills, Office Applications, Basic Coding (Entry/Scratch)', equipment: '20 Student PCs, 1 Multi-function Printer, 1 Projector', utilization: '86%', desc: 'Strengthens digital business competency for youth in the tourism-rich region of Shahrisabz.' },
+        'L-09': { name: 'L-09 Kitab Center', type: 'Local Type (General)', region: 'Kitab District, Kashkadarya', students: 'Cumulative 105 Graduates', courses: 'Computer Skills, Office Applications, Basic Coding (Entry/Scratch)', equipment: '20 Student PCs, 1 Printer, 1 Projector', utilization: '85%', desc: 'Acts as the central learning node for underserved youth in Kitab district.' },
+        'L-10': { name: 'L-10 Guzar Center', type: 'Local Type (General)', region: 'Guzar District, Kashkadarya', students: 'Cumulative 92 Graduates', courses: 'Digital Literacy, Computer Applications, Scratch Coding', equipment: '20 Student PCs, 1 Printer, 1 Projector', utilization: '81%', desc: 'Dedicated to closing the basic digital literacy gap for youth in Guzar.' },
+        'L-11': { name: 'L-11 Kamashi Center', type: 'Local Type (General)', region: 'Kamashi District, Kashkadarya', students: 'Cumulative 98 Graduates', courses: 'Digital Literacy, Computer Applications, Scratch Coding', equipment: '20 Student PCs, 1 Printer, 1 Projector', utilization: '84%', desc: 'Conducts school-linked afterschool IT programs actively within the new center.' },
+        'L-12': { name: 'L-12 Chirakchi Center', type: 'Local Type (General)', region: 'Chirakchi District, Kashkadarya', students: 'Cumulative 124 Graduates', courses: 'Regular IT Literacy, Office Suite, Introductory Algorithms', equipment: '20 Student PCs, 1 Printer, 1 Projector', utilization: '88%', desc: 'Serves a large youth population in Chirakchi district, running highly populated basic/mid-level courses.' },
+        'L-13': { name: 'L-13 Nishan Center', type: 'Local Type (General)', region: 'Nishan District, Kashkadarya', students: 'Cumulative 86 Graduates', courses: 'Computer Applications, MS Office Power User, Scratch Coding', equipment: '20 Student PCs, 1 Printer, 1 Projector', utilization: '79%', desc: 'Border town learning center to mitigate digital division for young students.' },
+        'L-14': { name: 'L-14 Kasan Center', type: 'Local Type (General)', region: 'Kasan District, Kashkadarya', students: 'Cumulative 79 Graduates', courses: 'Computer Basics, Office Applications, Basic Algorithms', equipment: '20 Student PCs, 1 Printer, 1 Projector', utilization: '77%', desc: 'Consistently provides free digital classes for underprivileged youth in Kasan.' }
+      };
+
+      const modal = document.getElementById('detail-modal');
+      const modalContent = document.getElementById('modal-body-content');
+      const modalClose = document.getElementById('modal-close');
+
+      // Add click listeners to rows
+      document.querySelectorAll('.dumbbell-row').forEach(row => {
+        row.addEventListener('click', () => {
+          const centerId = row.dataset.center;
+          const data = centerData[centerId];
+          if (!data) return;
+
+          modalContent.innerHTML = `
+            <div style="border-bottom: 2px solid var(--primary); padding-bottom: 12px; margin-bottom: 20px;">
+              <span style="font-size: 0.8rem; font-weight: bold; text-transform: uppercase; color: var(--primary); letter-spacing: 0.05em; display: block; margin-bottom: 4px;">${data.type}</span>
+              <h3 style="font-size: 1.4rem; font-weight: 800; color: var(--dark); margin: 0;">${data.name}</h3>
+            </div>
+            
+            <div style="display: flex; flex-direction: column; gap: 15px; font-size: 0.88rem; line-height: 1.6;">
+              <div>
+                <strong style="color: var(--dark); display: block; margin-bottom: 2px;">📍 Location</strong>
+                <span style="color: var(--text-secondary);">${data.region}</span>
+              </div>
+              
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                <div>
+                  <strong style="color: var(--dark); display: block; margin-bottom: 2px;">👥 Training Progress</strong>
+                  <span style="color: var(--text-secondary);">${data.students}</span>
+                </div>
+                <div>
+                  <strong style="color: var(--dark); display: block; margin-bottom: 2px;">⚙️ Equipment Status</strong>
+                  <span style="color: var(--text-secondary);">${data.utilization} (Active)</span>
+                </div>
+              </div>
+              
+              <div>
+                <strong style="color: var(--dark); display: block; margin-bottom: 2px;">📚 Active Courses</strong>
+                <span style="color: var(--text-secondary);">${data.courses}</span>
+              </div>
+              
+              <div>
+                <strong style="color: var(--dark); display: block; margin-bottom: 2px;">💻 Key Equipment Supplied</strong>
+                <span style="color: var(--text-secondary);">${data.equipment}</span>
+              </div>
+              
+              <div style="background: rgba(0, 153, 181, 0.05); padding: 12px 16px; border-radius: 8px; border-left: 4px solid var(--primary); margin-top: 10px;">
+                <strong style="color: var(--primary); display: block; margin-bottom: 4px; font-size: 0.9rem;">ℹ️ Operations & Details</strong>
+                <p style="margin: 0; color: var(--text-secondary); font-size: 0.85rem;">${data.desc}</p>
+              </div>
+            </div>
+          `;
+
+          modal.classList.add('active');
+        });
+      });
+
+      // Close modal actions
+      modalClose.addEventListener('click', () => {
+        modal.classList.remove('active');
+      });
+
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.remove('active');
+        }
       });
     });
   </script>

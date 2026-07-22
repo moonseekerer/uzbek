@@ -156,119 +156,746 @@
         본 사업에서 구축하는 디지털기술교육센터는 기능적 위계와 역할에 따라 KOICA Al-Khwarizmi H(Hub)형 및 KOICA IT Village L(Local)형의 2가지 유형으로 구분됩니다. Hub형 센터는 교육기획 및 ToT, 고등과정 운영 등을 총괄하며 Local형 센터는 풀뿌리 디지털 역량 강화와 접근성 개선을 촉진합니다.
       </p>
 
-      <!-- Center Comparison Grid -->
-      <div class="compare-grid">
-        <!-- H-Type Card -->
-        <div class="compare-card">
-          <div class="compare-header">
-            <span class="compare-tag h-type">Hub형</span>
-            <h3 class="compare-title">KOICA Al-Khwarizmi H형</h3>
-          </div>
-          <div class="compare-body">
-            <ul>
-              <li><strong>구축 규모</strong>: 카슈카다리야 및 카라칼팍스탄 주 IT PARK 내 각 1개소 구축 (총 2개소)</li>
-              <li><strong>건축 방식</strong>: 기존 건물 내부 리모델링 (알화리즈미 프로그램과 연계)</li>
-              <li><strong>설립 시기</strong>: 사업 시작 후 2년차</li>
-              <li><strong>구축 목적</strong>: 교육 콘텐츠 연구 및 총괄, 지역 사업 총괄, 지역별 표준 교육환경 구성 및 교육 운영 주도, 성과 모니터링</li>
-              <li><strong>운영 주체</strong>: 우즈베키스탄 정부(수원국) 및 PMC (사업 수행 중 공동 운영)</li>
-              <li><strong>주요 활동</strong>:
-                <br>- 유형별 표준 공간 구성 및 기자재 기준 마련
-                <br>- IT 기초, IoT, AI 교육을 포함한 표준 커리큘럼 개발
-                <br>- 레벨 1~5 수준에 적합한 IT 교육 프로그램 개발 및 검증
-                <br>- 새로운 기술에 대한 교육과정 개발 및 검증, 지역 특화 교육과정 주도
-                <br>- IT 멘토 양성(ToT) 및 고급 교육과정 운영
-                <br>- 정규과정/주말 교육과정 계획 및 운영
-                <br>- 취창업 연계 활동 및 행사 기획/주관/지원
-              </li>
-              <li><strong>핵심 특징</strong>: 선제적으로 설립하여 운영하며 총괄 관리하며, 전문 인력이 상주하여 지속적인 운영 관리 및 기술 지원을 수행합니다.</li>
-            </ul>
-          </div>
-        </div>
+      <!-- Center Comparison Table -->
+      <h3 style="font-size: 1.35rem; font-weight: 700; color: var(--dark); margin-top: 30px; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+        <span style="display:inline-block; width:6px; height:20px; background-color:var(--primary); border-radius:2px;"></span>
+        H형(Hub) vs L형(Local) 센터 주요 특징 대조
+      </h3>
 
-        <!-- L-Type Card -->
-        <div class="compare-card">
-          <div class="compare-header">
-            <span class="compare-tag l-type">Local형</span>
-            <h3 class="compare-title">KOICA IT Village L형</h3>
-          </div>
-          <div class="compare-body">
-            <ul>
-              <li><strong>구축 규모</strong>: 카슈카다리야 및 카라칼팍스탄 주 지역 내 총 14개소 구축</li>
-              <li><strong>건축 방식</strong>: 지상 1층 건물 신축 (IT Village 프로그램과 연계)</li>
-              <li><strong>설립 시기</strong>: 사업 시작 후 3년차</li>
-              <li><strong>구축 목적</strong>: 보급형 표준 교육환경 및 교재, 멘토를 활용한 밀착형 기본 교육 과정 운영</li>
-              <li><strong>운영 주체</strong>: 우즈베키스탄 정부(수원국) 및 PMC (사업 수행 중 공동 운영)</li>
-              <li><strong>주요 활동</strong>:
-                <br>- 지역 수요와 지리적 우선순위에 따른 14개 신축 센터 순차 구축
-                <br>- 보급된 IT 교재와 기자재를 활용한 기초 교육 활동 및 정기 성과 보고
-                <br>- 지역별 환경과 청소년 요구 조건을 반영한 자율적인 교육과정 운영
-              </li>
-              <li><strong>핵심 특징</strong>:
-                <br>- 소외 지역 청소년들의 IT 교육 접근성 제고
-                <br>- 표준화된 교육 프로그램을 이용한 디지털 기본 역량 확보
-                <br>- 소외 지역 청소년 디지털 문해력(Digital Literacy) 향상 집중
-                <br>- 제한된 자원으로 ICT 교육 기반을 넓혀 지역 인프라 수급 요건 개선
-                <br>- 인근 H형 센터와 긴밀히 연계하여 교육을 진행하고 시너지 성과 창출
-              </li>
-            </ul>
-          </div>
+      <div class="table-responsive" style="margin-bottom: 40px; overflow-x: auto;">
+        <table class="infra-table" style="width: 100%; border-top: 2px solid var(--primary); font-size: 0.88rem; border-collapse: collapse;">
+          <thead>
+            <tr>
+              <th style="width: 15%; background-color: var(--light); font-weight: 700; color: var(--dark); border-bottom: 2px solid var(--border); padding: 12px;">비교 항목</th>
+              <th style="width: 42.5%; background-color: var(--light); font-weight: 700; color: var(--primary); border-bottom: 2px solid var(--border); padding: 12px;">KOICA Al-Khwarizmi H형 (Hub형)</th>
+              <th style="width: 42.5%; background-color: var(--light); font-weight: 700; color: #10b981; border-bottom: 2px solid var(--border); padding: 12px;">KOICA IT Village L형 (Local형)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="font-weight: 700; background-color: rgba(0,0,0,0.01); padding: 12px; border-bottom: 1px solid var(--border);">개념 및 역할</td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);">지역 내 IT 교육 기획, 멘토/강사 양성(ToT), 고급 교육과정 운영 및 인근 소도시 센터를 총괄 관리하는 거점 허브 역할</td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);">IT 접근성이 취약한 지방 소도시/농촌 지역 청소년의 디지털 문해력 함양 및 풀뿌리 기초·중급 IT 교육 제공 역할</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; background-color: rgba(0,0,0,0.01); padding: 12px; border-bottom: 1px solid var(--border);">구축 규모 / 수량</td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);"><strong>2개소</strong> (카라칼팍스탄 누쿠스 IT Park, 카슈카다리야 카르시 IT Park)</td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);"><strong>14개소</strong> (타겟 지역 내 14개 지방 소도시)</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; background-color: rgba(0,0,0,0.01); padding: 12px; border-bottom: 1px solid var(--border);">건축 방식</td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);">기존 IT Park 건물 내부를 현대적으로 재해석하여 <strong>리모델링</strong></td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);">부지 선정을 통한 <strong>지상 1층 단층 표준형 건물 신축</strong></td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; background-color: rgba(0,0,0,0.01); padding: 12px; border-bottom: 1px solid var(--border);">기준 연면적</td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);">• <strong>누쿠스 Hub</strong>: 약 550㎡ (1개 층 리모델링)<br>• <strong>카르시 Hub</strong>: 약 1,100㎡ (2개 층 리모델링)</td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);">각 센터당 <strong>약 525㎡</strong> (동일 신축 규격 적용)</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; background-color: rgba(0,0,0,0.01); padding: 12px; border-bottom: 1px solid var(--border);">교육 프로그램 범위</td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);">디지털 전환(DX) 기술, AI 및 빅데이터 입문, IoT 개발, 서버 프로그래밍, 고급 취창업 연계 프로그램</td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);">디지털 리터러시(글자/오피스 등 IT 기초), 컴퓨터 활용(오피스 실무), 기초 알고리즘 및 코딩 프로그래밍</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700; background-color: rgba(0,0,0,0.01); padding: 12px; border-bottom: 1px solid var(--border);">핵심 초점 및 특징</td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);">
+                • 청소년 취/창업 생태계 활성화 및 고급 인프라 구축<br>
+                • PIU와 상주 PMC 전문가와의 공동 협업을 통한 지속가능 관리<br>
+                • IT 교육 자격 기준 검증 및 품질 모니터링 허브 역할 수행
+              </td>
+              <td style="padding: 12px; border-bottom: 1px solid var(--border);">
+                • 소외지역 IT 교육 장벽 해소 및 디지털 리터러시 격차 해소<br>
+                • 표준화된 교육환경, 기자재, 교보재를 통한 일관된 교육 품질 제공<br>
+                • 해당 권역 Hub 센터의 강사 풀 및 교육 연계망 활용
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Tab Switcher for Space Programs -->
+      <h3 style="font-size: 1.35rem; font-weight: 700; color: var(--dark); margin-top: 30px; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
+        <span style="display:inline-block; width:6px; height:20px; background-color:var(--primary); border-radius:2px;"></span>
+        교육센터 공간 상세 설계 계획 (스페이스 프로그램)
+      </h3>
+      <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 20px;">
+        우즈베키스탄 청소년 IT 교육 최적화를 위한 층별/기능별 수용 인원 및 실별 세부 면적 프로그램(안) 명세입니다.
+      </p>
+
+      <div class="performance-tabs" style="margin-bottom: 20px;">
+        <button class="performance-tab active" data-target="space-nukus">1. 누쿠스 Hub 센터 (550㎡)</button>
+        <button class="performance-tab" data-target="space-karshi">2. 카르시 Hub 센터 (1,100㎡)</button>
+        <button class="performance-tab" data-target="space-local">3. IT Village Local형 센터 (525㎡)</button>
+      </div>
+
+      <!-- Tab Content 1: Nukus Hub Space Program -->
+      <div id="space-nukus" class="performance-tab-content active">
+        <div style="overflow-x: auto;">
+          <table class="infra-table" style="width: 100%; font-size: 0.82rem; border-collapse: collapse;">
+            <thead>
+              <tr style="background-color: var(--light);">
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">실명 (국문)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">실명 (영문)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: center; width: 10%;">수용인원 (명)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: center; width: 8%;">실수 (개)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: right; width: 10%;">단위면적 (㎡)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: right; width: 10%;">합계면적 (㎡)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: left; width: 30%;">공간 주요 기능</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>코워킹스페이스</td>
+                <td>Co-working Space</td>
+                <td style="text-align: center;">24</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">34.6</td>
+                <td style="text-align: right; font-weight: bold;">34.6</td>
+                <td>프로젝트 협력 및 청소년 취창업 아이디어 공유/협업</td>
+              </tr>
+              <tr>
+                <td>이벤트홀 겸 오디토리움</td>
+                <td>Event hall & Auditorium</td>
+                <td style="text-align: center;">40</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">56.0</td>
+                <td style="text-align: right; font-weight: bold;">56.0</td>
+                <td>인재 매칭, 세미나, 주요 특강 및 전시/행사 공간</td>
+              </tr>
+              <tr>
+                <td>E-lounge</td>
+                <td>E-lounge</td>
+                <td style="text-align: center;">24</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">48.4</td>
+                <td style="text-align: right; font-weight: bold;">48.4</td>
+                <td>인터넷 접속 및 자유 학습을 지원하는 공용 휴게/정보검색 공간</td>
+              </tr>
+              <tr>
+                <td>사무실</td>
+                <td>Office</td>
+                <td style="text-align: center;">8</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">17.6</td>
+                <td style="text-align: right; font-weight: bold;">17.6</td>
+                <td>상주 행정 및 교육운영 직원의 센터 업무 공간</td>
+              </tr>
+              <tr>
+                <td>컴퓨터실</td>
+                <td>IT Lab 1</td>
+                <td style="text-align: center;">20</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">49.8</td>
+                <td style="text-align: right; font-weight: bold;">49.8</td>
+                <td>디지털 문해, 컴퓨터 기술 입문 및 기본 소프트웨어 실습</td>
+              </tr>
+              <tr>
+                <td>다목적 강의실</td>
+                <td>Multi-purpose Lecture Room 1</td>
+                <td style="text-align: center;">40</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">49.4</td>
+                <td style="text-align: right; font-weight: bold;">49.4</td>
+                <td>이론 교육, 디자인씽킹, 린스타트업 등 역량 교육 공간</td>
+              </tr>
+              <tr>
+                <td>IoT 실습실</td>
+                <td>IoT practice Room</td>
+                <td style="text-align: center;">16</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">34.2</td>
+                <td style="text-align: right; font-weight: bold;">34.2</td>
+                <td>사물인터넷(IoT), 임베디드 실습, 센서 제어 및 AI 입문 교육</td>
+              </tr>
+              <tr>
+                <td>클라이언트 서버실습실</td>
+                <td>Client Server Lab</td>
+                <td style="text-align: center;">16</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">34.2</td>
+                <td style="text-align: right; font-weight: bold;">34.2</td>
+                <td>홈페이지 제작, 웹/앱 사용자 인터페이스, AI 프로그래밍 실습</td>
+              </tr>
+              <tr>
+                <td>인큐베이팅룸 1</td>
+                <td>Incubating Room 1</td>
+                <td style="text-align: center;">4</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">13.0</td>
+                <td style="text-align: right; font-weight: bold;">13.0</td>
+                <td>스타트업 창업 준비 팀 및 청소년 캡스톤 프로젝트 활동 지원</td>
+              </tr>
+              <tr>
+                <td>인큐베이팅룸 2</td>
+                <td>Incubating Room 2</td>
+                <td style="text-align: center;">4</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">12.6</td>
+                <td style="text-align: right; font-weight: bold;">12.6</td>
+                <td>스타트업 창업 준비 팀 및 청소년 캡스톤 프로젝트 활동 지원</td>
+              </tr>
+              <tr>
+                <td>인큐베이팅룸 3</td>
+                <td>Incubating Room 3</td>
+                <td style="text-align: center;">4</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">15.7</td>
+                <td style="text-align: right; font-weight: bold;">15.7</td>
+                <td>스타트업 창업 준비 팀 및 청소년 캡스톤 프로젝트 활동 지원</td>
+              </tr>
+              <tr>
+                <td>메이커스페이스</td>
+                <td>Maker Space</td>
+                <td style="text-align: center;">8</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">15.4</td>
+                <td style="text-align: right; font-weight: bold;">15.4</td>
+                <td>시제품(Prototype) 제작 및 하드웨어 가공 설계 공간</td>
+              </tr>
+              <tr>
+                <td>코이카룸</td>
+                <td>KOICA Room</td>
+                <td style="text-align: center;">6</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">16.6</td>
+                <td style="text-align: right; font-weight: bold;">16.6</td>
+                <td>PMC 현지 사업 관리, 모니터링 및 강사 자문 업무 지원</td>
+              </tr>
+              <tr>
+                <td>회의실</td>
+                <td>Meeting Room</td>
+                <td style="text-align: center;">8</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">16.4</td>
+                <td style="text-align: right; font-weight: bold;">16.4</td>
+                <td>다자간 교육 협력, 실무 회의 및 외부 방문객 면담</td>
+              </tr>
+              <tr>
+                <td>창고</td>
+                <td>Storage</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">6.4</td>
+                <td style="text-align: right; font-weight: bold;">6.4</td>
+                <td>예비 IT 교구재, 기자재 부품 및 사무 용품 보관</td>
+              </tr>
+              <tr style="background-color: #f8fafc; font-weight: bold;">
+                <td colspan="2">전용공간 소계 (A)</td>
+                <td style="text-align: center;">222</td>
+                <td style="text-align: center;">15</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right;">420.3</td>
+                <td>실 전용 교육 및 업무 구역 면적</td>
+              </tr>
+              <tr>
+                <td colspan="2">공용공간 (B) (복도, 계단 등)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right; font-weight: bold;">129.7</td>
+                <td>이동 동선 및 지원 공용 구조물 면적</td>
+              </tr>
+              <tr style="background-color: #f1f5f9; font-weight: bold; font-size: 0.85rem; border-top: 2px solid var(--primary);">
+                <td colspan="2" style="color: var(--primary);">총 면적 합계 (A + B)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">15</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right; color: var(--primary);">550.0</td>
+                <td>누쿠스 거점센터 전체 리모델링 확보 면적</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
-      <!-- Functional Spaces Section -->
-      <div class="space-layout-box">
-        <h3 style="font-size: 1.3rem; font-weight: 700; color: var(--primary); border-bottom: 2px solid var(--primary); padding-bottom: 10px; margin-bottom: 20px;">
-          🏫 H(Hub)형 교육센터 주요 실별 설계 기능 및 수용 계획
+      <!-- Tab Content 2: Karshi Hub Space Program -->
+      <div id="space-karshi" class="performance-tab-content">
+        <div style="overflow-x: auto;">
+          <table class="infra-table" style="width: 100%; font-size: 0.82rem; border-collapse: collapse;">
+            <thead>
+              <tr style="background-color: var(--light);">
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: center; width: 6%;">층</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">실명 (국문)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">실명 (영문)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: center; width: 10%;">수용인원 (명)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: center; width: 8%;">실수 (개)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: right; width: 10%;">단위면적 (㎡)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: right; width: 10%;">합계면적 (㎡)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: left; width: 30%;">공간 주요 기능</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- 1st Floor -->
+              <tr>
+                <td rowspan="11" style="text-align: center; font-weight: bold; background-color: #f8fafc; border-right: 2px solid var(--border);">1층</td>
+                <td>로비 및 대기실</td>
+                <td>Lobby & waiting Hall</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">38.0</td>
+                <td style="text-align: right; font-weight: bold;">38.0</td>
+                <td>센터 방문객 전대 및 전시/정보 안내 접견 구역</td>
+              </tr>
+              <tr>
+                <td>이벤트홀 겸 오디토리움</td>
+                <td>Event hall & Auditorium</td>
+                <td style="text-align: center;">60</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">97.6</td>
+                <td style="text-align: right; font-weight: bold;">97.6</td>
+                <td>최대 60인 수용 네트워킹 포럼 및 대규모 특강/행사 공간</td>
+              </tr>
+              <tr>
+                <td>E-lounge</td>
+                <td>E-lounge</td>
+                <td style="text-align: center;">36</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">66.4</td>
+                <td style="text-align: right; font-weight: bold;">66.4</td>
+                <td>36석 규모의 대용량 인터넷 개방형 멀티미디어 휴게 공간</td>
+              </tr>
+              <tr>
+                <td>사무실</td>
+                <td>Office</td>
+                <td style="text-align: center;">18</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">32.2</td>
+                <td style="text-align: right; font-weight: bold;">32.2</td>
+                <td>IT 교육 기획 및 강사 관리용 행정 통합 사무소</td>
+              </tr>
+              <tr>
+                <td>컴퓨터실 1</td>
+                <td>IT Lab 1</td>
+                <td style="text-align: center;">20</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">30.8</td>
+                <td style="text-align: right; font-weight: bold;">30.8</td>
+                <td>디지털 기기 초보자 교육 및 워드/엑셀 등 기본 실무 역량 배양</td>
+              </tr>
+              <tr>
+                <td>다목적 강의실 1</td>
+                <td>Multi-purpose Lecture Room 1</td>
+                <td style="text-align: center;">30</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">45.8</td>
+                <td style="text-align: right; font-weight: bold;">45.8</td>
+                <td>기업가정신, 온라인 마케팅, 비즈니스 리프레시 교육</td>
+              </tr>
+              <tr>
+                <td>코워킹스페이스</td>
+                <td>Co-working Space</td>
+                <td style="text-align: center;">24</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">31.2</td>
+                <td style="text-align: right; font-weight: bold;">31.2</td>
+                <td>공유 데스크 형태의 창업/프로젝트 협력 및 개방 코더 전용석</td>
+              </tr>
+              <tr>
+                <td>카페</td>
+                <td>Café</td>
+                <td style="text-align: center;">12</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">16.2</td>
+                <td style="text-align: right; font-weight: bold;">16.2</td>
+                <td>식음료 판매 및 휴게(외부 외주 임대 입점 가능 구역)</td>
+              </tr>
+              <tr>
+                <td>화장실 (남)</td>
+                <td>Toilet (M)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">9.2</td>
+                <td style="text-align: right; font-weight: bold;">9.2</td>
+                <td>위생 화장 시설 (남성 전용)</td>
+              </tr>
+              <tr>
+                <td>화장실 (여)</td>
+                <td>Toilet (F)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">12.6</td>
+                <td style="text-align: right; font-weight: bold;">12.6</td>
+                <td>위생 화장 시설 (여성 전용, 배리어프리 지원)</td>
+              </tr>
+              <tr style="background-color: #f8fafc; font-weight: bold;">
+                <td colspan="2">1층 전용공간 소계 (a)</td>
+                <td style="text-align: center;">200</td>
+                <td style="text-align: center;">10</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right;">380.0</td>
+                <td>1층 내 전용 공간 면적 소계</td>
+              </tr>
+              <tr>
+                <td style="text-align: center; font-weight: bold; background-color: #f8fafc;">1층 공용</td>
+                <td colspan="2">공용공간 (복도, 계단, 공조실 등)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right; font-weight: bold;">180.0</td>
+                <td>1층 이동 복도 및 유틸리티 공용 면적</td>
+              </tr>
+              <tr style="background-color: #e2e8f0; font-weight: bold;">
+                <td style="text-align: center;">1층 합계</td>
+                <td colspan="2">1층 총면적 (A = a + b)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">10</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right;">560.0</td>
+                <td>카르시 센터 1층 전체 확보 영역</td>
+              </tr>
+
+              <!-- 2nd Floor -->
+              <tr>
+                <td rowspan="14" style="text-align: center; font-weight: bold; background-color: #f8fafc; border-top: 2px solid var(--border); border-right: 2px solid var(--border);">2층</td>
+                <td>컴퓨터실 2</td>
+                <td>IT Lab 2</td>
+                <td style="text-align: center;">20</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">30.8</td>
+                <td style="text-align: right; font-weight: bold;">30.8</td>
+                <td>알고리즘 및 기초 언어(C, Python) 프로그래밍 교육실</td>
+              </tr>
+              <tr>
+                <td>다목적 강의실 2</td>
+                <td>Multi-purpose Lecture Room 2</td>
+                <td style="text-align: center;">30</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">45.8</td>
+                <td style="text-align: right; font-weight: bold;">45.8</td>
+                <td>기술 특강 및 취창업 역량강화 이론 전용 강의장</td>
+              </tr>
+              <tr>
+                <td>IoT 실습실</td>
+                <td>IoT practice Lab</td>
+                <td style="text-align: center;">20</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">30.8</td>
+                <td style="text-align: right; font-weight: bold;">30.8</td>
+                <td>센서 및 아두이노 활용 사물인터넷/빅데이터 제어 실습</td>
+              </tr>
+              <tr>
+                <td>클라이언트 서버실습실</td>
+                <td>Client Server Lab</td>
+                <td style="text-align: center;">20</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">31.2</td>
+                <td style="text-align: right; font-weight: bold;">31.2</td>
+                <td>백엔드 코딩, 클라우드 호스팅 모의 구성 실습실</td>
+              </tr>
+              <tr>
+                <td>엑셀러레이터룸</td>
+                <td>Accelerator Room</td>
+                <td style="text-align: center;">4</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">15.8</td>
+                <td style="text-align: right; font-weight: bold;">15.8</td>
+                <td>벤처 멘토링, 스타트업 모의 투자 IR 피칭 지원 코너</td>
+              </tr>
+              <tr>
+                <td>인큐베이팅룸 (1, 2, 3)</td>
+                <td>Incubating Office 1, 2, 3</td>
+                <td style="text-align: center;">4</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: right;">15.2</td>
+                <td style="text-align: right; font-weight: bold;">15.2</td>
+                <td>예비 스타트업 입주 오피스 공간 (총 3개소 별도 분할)</td>
+              </tr>
+              <tr>
+                <td>메이커스페이스</td>
+                <td>Maker Space</td>
+                <td style="text-align: center;">12</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">32.6</td>
+                <td style="text-align: right; font-weight: bold;">32.6</td>
+                <td>3D 프린터 등을 활용한 하드웨어 창작 및 시제품 제작</td>
+              </tr>
+              <tr>
+                <td>코이카룸</td>
+                <td>KOICA Room</td>
+                <td style="text-align: center;">6</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">16.4</td>
+                <td style="text-align: right; font-weight: bold;">16.4</td>
+                <td>사업 수행 전문가 합동 회의실 및 강사 양성 토론룸</td>
+              </tr>
+              <tr>
+                <td>회의실</td>
+                <td>Meeting Room</td>
+                <td style="text-align: center;">8</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">17.6</td>
+                <td style="text-align: right; font-weight: bold;">17.6</td>
+                <td>기획 업무 및 소규모 학습 그룹 미팅</td>
+              </tr>
+              <tr>
+                <td>휴게실</td>
+                <td>Lounge</td>
+                <td style="text-align: center;">16</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">17.0</td>
+                <td style="text-align: right; font-weight: bold;">17.0</td>
+                <td>학생 상호 교류 및 편안한 일반 휴식 대기실</td>
+              </tr>
+              <tr>
+                <td>창고</td>
+                <td>Storage</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">16.2</td>
+                <td style="text-align: right; font-weight: bold;">16.2</td>
+                <td>교보재, 기자재 전용 수하 보관</td>
+              </tr>
+              <tr>
+                <td>화장실 (남)</td>
+                <td>Toilet (M)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">9.2</td>
+                <td style="text-align: right; font-weight: bold;">9.2</td>
+                <td>위생 시설 (남성용)</td>
+              </tr>
+              <tr>
+                <td>화장실 (여)</td>
+                <td>Toilet (F)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">12.6</td>
+                <td style="text-align: right; font-weight: bold;">12.6</td>
+                <td>위생 시설 (여성용)</td>
+              </tr>
+              <tr style="background-color: #f8fafc; font-weight: bold;">
+                <td colspan="2">2층 전용공간 소계 (c)</td>
+                <td style="text-align: center;">140</td>
+                <td style="text-align: center;">15</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right;">321.6</td>
+                <td>2층 내 전용 실사용 면적 소계</td>
+              </tr>
+              <tr>
+                <td style="text-align: center; font-weight: bold; background-color: #f8fafc;">2층 공용</td>
+                <td colspan="2">공용공간 (복도, 계단실 등)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right; font-weight: bold;">218.4</td>
+                <td>2층 이동 통로 및 피난 계단 등 공용 면적</td>
+              </tr>
+              <tr style="background-color: #e2e8f0; font-weight: bold;">
+                <td style="text-align: center;">2층 합계</td>
+                <td colspan="2">2층 총면적 (B = c + d)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">15</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right;">540.0</td>
+                <td>카르시 센터 2층 전체 확보 영역</td>
+              </tr>
+
+              <!-- Grand Total -->
+              <tr style="background-color: #cbd5e1; font-weight: bold; font-size: 0.85rem; border-top: 2px solid var(--primary);">
+                <td colspan="3" style="text-align: center; color: var(--primary);">건물 총면적 합계 (A + B)</td>
+                <td style="text-align: center;">340</td>
+                <td style="text-align: center;">25</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right; color: var(--primary);">1,100.0</td>
+                <td>카르시 거점센터 지상 1~2층 전체 리모델링 면적</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Tab Content 3: Local IT Village Space Program -->
+      <div id="space-local" class="performance-tab-content">
+        <div style="overflow-x: auto;">
+          <table class="infra-table" style="width: 100%; font-size: 0.82rem; border-collapse: collapse;">
+            <thead>
+              <tr style="background-color: var(--light);">
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">실명 (국문)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: left;">실명 (영문)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: center; width: 10%;">수용인원 (명)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: center; width: 8%;">실수 (개)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: right; width: 10%;">단위면적 (㎡)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: right; width: 10%;">합계면적 (㎡)</th>
+                <th style="padding: 10px; border: 1px solid var(--border); text-align: left; width: 30%;">공간 주요 기능</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>로비 겸 컨퍼런스홀</td>
+                <td>Lobby & Conference Hall</td>
+                <td style="text-align: center;">50</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">75.4</td>
+                <td style="text-align: right; font-weight: bold;">75.4</td>
+                <td>청소년 다목적 대기, 안내 데스크 및 소규모 발표/전시 공간</td>
+              </tr>
+              <tr>
+                <td>코워킹스페이스</td>
+                <td>Co-working Space</td>
+                <td style="text-align: center;">16</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">26.0</td>
+                <td style="text-align: right; font-weight: bold;">26.0</td>
+                <td>그룹 토의 및 자율적 컴퓨터 코딩 학습</td>
+              </tr>
+              <tr>
+                <td>E-lounge</td>
+                <td>E-lounge</td>
+                <td style="text-align: center;">30</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">58.0</td>
+                <td style="text-align: right; font-weight: bold;">58.0</td>
+                <td>태블릿 및 스마트기기 개방 정보 쉼터</td>
+              </tr>
+              <tr>
+                <td>컴퓨터실 (1, 2)</td>
+                <td>IT Room 1, 2</td>
+                <td style="text-align: center;">18</td>
+                <td style="text-align: center;">2</td>
+                <td style="text-align: right;">36.0</td>
+                <td style="text-align: right; font-weight: bold;">72.0</td>
+                <td>디지털 소외 해소, 한글/엑셀 활용 등 실생활 밀착형 IT 컴퓨터 교육</td>
+              </tr>
+              <tr>
+                <td>다목적 강의실 1</td>
+                <td>Multi-purpose Lecture Room 1</td>
+                <td style="text-align: center;">30</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">46.8</td>
+                <td style="text-align: right; font-weight: bold;">46.8</td>
+                <td>기초 디지털 리터러시 정규 이론 강의실</td>
+              </tr>
+              <tr>
+                <td>다목적 강의실 2</td>
+                <td>Multi-purpose Lecture Room 2</td>
+                <td style="text-align: center;">24</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">40.0</td>
+                <td style="text-align: right; font-weight: bold;">40.0</td>
+                <td>기초 디지털 리터러시 정규 이론 강의실</td>
+              </tr>
+              <tr>
+                <td>사무실</td>
+                <td>Office</td>
+                <td style="text-align: center;">8</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">14.0</td>
+                <td style="text-align: right; font-weight: bold;">14.0</td>
+                <td>현지 행정 관리자 전용 업무 오피스</td>
+              </tr>
+              <tr>
+                <td>회의실 (1, 2)</td>
+                <td>Meeting Room 1, 2</td>
+                <td style="text-align: center;">12</td>
+                <td style="text-align: center;">2</td>
+                <td style="text-align: right;">12.7</td>
+                <td style="text-align: right; font-weight: bold;">25.4</td>
+                <td>소모임, 팀 기반 미팅 회의장 (총 2개실 분할)</td>
+              </tr>
+              <tr>
+                <td>코이카룸</td>
+                <td>KOICA Room</td>
+                <td style="text-align: center;">6</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">11.6</td>
+                <td style="text-align: right; font-weight: bold;">11.6</td>
+                <td>사업 수행 인력 및 강사 지원 회의 코너</td>
+              </tr>
+              <tr>
+                <td>창고</td>
+                <td>Storage</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">10.7</td>
+                <td style="text-align: right; font-weight: bold;">10.7</td>
+                <td>교보재 및 가전 소모 부품 저장고</td>
+              </tr>
+              <tr>
+                <td>간이 주방</td>
+                <td>Canteen</td>
+                <td style="text-align: center;">6</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">11.6</td>
+                <td style="text-align: right; font-weight: bold;">11.6</td>
+                <td>교육생 및 임직원 대상 취수 및 휴게 지원 다과실</td>
+              </tr>
+              <tr>
+                <td>화장실 (남)</td>
+                <td>Toilet (M)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">14.0</td>
+                <td style="text-align: right; font-weight: bold;">14.0</td>
+                <td>위생 시설 (남성용)</td>
+              </tr>
+              <tr>
+                <td>화장실 (여)</td>
+                <td>Toilet (F)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: right;">28.0</td>
+                <td style="text-align: right; font-weight: bold;">28.0</td>
+                <td>위생 시설 (여성용, 배리어프리 장애인 칸 구비)</td>
+              </tr>
+              <tr style="background-color: #f8fafc; font-weight: bold;">
+                <td colspan="2">전용공간 소계 (A)</td>
+                <td style="text-align: center;">200</td>
+                <td style="text-align: center;">15</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right;">433.5</td>
+                <td>신축 1층 단층 전용 실사용 면적</td>
+              </tr>
+              <tr>
+                <td colspan="2">공용공간 (B) (복도, 계단 등)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right; font-weight: bold;">166.9</td>
+                <td>공동 복도 및 피난 동선 면적</td>
+              </tr>
+              <tr style="background-color: #dcfce7; font-weight: bold; font-size: 0.85rem; border-top: 2px solid #10b981;">
+                <td colspan="2" style="color: #047857;">총 면적 합계 (A + B)</td>
+                <td style="text-align: center;">-</td>
+                <td style="text-align: center;">15</td>
+                <td style="text-align: right;">-</td>
+                <td style="text-align: right; color: #047857;">525.0</td>
+                <td>L형 Village 신축 센터 전체 확보 연면적</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Equipment Support Section -->
+      <div style="margin-top: 40px; background-color: #f8fafc; border: 1px solid var(--border); border-radius: 16px; padding: 28px;">
+        <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--primary); margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+          ⚙️ 교육센터 기자재 조달 및 표준 보급 체계 (Activity 1.2)
         </h3>
-        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 24px; line-height: 1.6;">
-          각 지역의 교육 중추 역할을 담당할 Hub형 센터는 총 10여 개의 고도화된 기능실로 구성됩니다. 각 실은 학습 효율성과 기기의 가동성, 접근 편의성을 조화롭게 갖추도록 최적 설계되었습니다.
+        <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 20px;">
+          각 교육센터의 하드웨어 규모, 스페이스 프로그램 및 현지 IT 교육과정에 부합하는 교육용 가구, 집기 및 첨단 IT 교육용 대용량 기자재를 체계적으로 검토하고 보급합니다.
         </p>
 
-        <div class="space-layout-grid">
-          <!-- Item 1 -->
-          <div class="space-card">
-            <h4 class="space-name">다목적 강의실</h4>
-            <p class="space-desc">기본 이론, 언어 학습, 전공 이론 학습 공간. 2개 이상 강의실 구축 시 크기를 다변화해 적정 인원에 맞추며, 실당 최대 40명 수용 가능.</p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; font-size: 0.85rem; line-height: 1.6;">
+          <div style="background-color: var(--white); padding: 18px; border-radius: 12px; border: 1px solid var(--border);">
+            <strong style="color: var(--dark); font-size: 0.92rem; display: block; margin-bottom: 8px;">💼 주요 수행 체계 및 조달 방식</strong>
+            <ul style="padding-left: 18px; margin: 0; color: var(--text-secondary);">
+              <li style="margin-bottom: 8px;"><strong>PMC (사업단) 역할</strong>: 수원국(PIU)이 제출한 기자재 조달 계획서의 수량, 규격, 적합성을 정밀 검토하고 검토 의견서를 작성하여 코이카 사무소에 제출합니다. 또한 초기에는 PMC 기자재 전문가 주도하에 현장 조달 및 정밀 설치 검수를 주관합니다.</li>
+              <li style="margin-bottom: 8px;"><strong>PIU (수원기관) 역할</strong>: 코이카와 협의된 기준에 맞춰 교육 프로그램별 필요 기자재 목록, 기술 스펙(Specification), 예정 단가 및 공간에 배치할 가재 집기 도면 목록을 제출하고 직접 조달을 실행합니다.</li>
+              <li><strong>수원국 조달 시스템 활용</strong>: 현지 국가 조달 절차에 따라 진행되며, 입찰 공고부터 실제 기자재 현장 조달까지 <strong>약 3~4개월</strong>의 조달 행정 소요 시간이 예상됩니다.</li>
+            </ul>
           </div>
-          <!-- Item 2 -->
-          <div class="space-card">
-            <h4 class="space-name">IT Lab (컴퓨터실)</h4>
-            <p class="space-desc">현지 조사 결과 디지털 기기 접촉 기회가 부족한 점을 감안해 20명 정원의 컴퓨터실을 2개 이상 배치. 중급 수준의 IT 교육 환경 보장.</p>
-          </div>
-          <!-- Item 3 -->
-          <div class="space-card">
-            <h4 class="space-name">IoT & 클라이언트 서버실습실</h4>
-            <p class="space-desc">고급 기술 실무 교육을 위해 IoT 하드웨어 실습 및 가상 클라이언트 서버 모의 훈련을 수행할 고사양 PC와 실습 전용 툴 구비.</p>
-          </div>
-          <!-- Item 4 -->
-          <div class="space-card">
-            <h4 class="space-name">E-Lounge</h4>
-            <p class="space-desc">자유로운 전자도서관 개념의 개방형 학습 및 놀이 공간. 시간 제약 없이 자유로운 디지털 기기 접촉 및 자기주도 학습 환경 제공.</p>
-          </div>
-          <!-- Item 5 -->
-          <div class="space-card">
-            <h4 class="space-name">이벤트 홀 겸 오디토리움</h4>
-            <p class="space-desc">취창업 네트워킹 및 인재 매칭 기회 제공을 위한 대공간. 리모델링 면적 한계를 감안해 다각도 활용이 가능한 이동식 가구 배치.</p>
-          </div>
-          <!-- Item 6 -->
-          <div class="space-card">
-            <h4 class="space-name">사무실</h4>
-            <p class="space-desc">교육계획 수립 및 센터 운영을 위한 공간. 알화리즈미 전담 근무 인력을 고려해 직종별로 분할 배치하여 총 20~28명 근무 고려.</p>
-          </div>
-          <!-- Item 7 -->
-          <div class="space-card">
-            <h4 class="space-name">코이카룸</h4>
-            <p class="space-desc">사업 수행 기간 중에는 KOICA PMC의 현지 사무 공간으로 활용하고, 사업 종료 후에는 교육 센터의 행정실이나 특화 회의실로 용도 전환.</p>
-          </div>
-          <!-- Item 8 -->
-          <div class="space-card">
-            <h4 class="space-name">회의실 및 세미나룸</h4>
-            <p class="space-desc">사용 목적과 예약 인원에 맞춰 즉시 결합/분할 사용이 가능한 회의 테이블 구성. 최소 2개소 이상을 확보하여 원활한 교류 지원.</p>
-          </div>
-          <!-- Item 9 -->
-          <div class="space-card">
-            <h4 class="space-name">화장실 (Accessible)</h4>
-            <p class="space-desc">위생적이고 사용이 편리하도록 남녀 공간을 엄밀히 분리하고, 휠체어 접근이 편리한 장애인 화장실을 1개 이상 설치하여 '차별 없는 접근성' 보장.</p>
+
+          <div style="background-color: var(--white); padding: 18px; border-radius: 12px; border: 1px solid var(--border);">
+            <strong style="color: var(--dark); font-size: 0.92rem; display: block; margin-bottom: 8px;">⏳ 기자재 보급 일정 및 특기사항</strong>
+            <ul style="padding-left: 18px; margin: 0; color: var(--text-secondary);">
+              <li style="margin-bottom: 8px;"><strong>조달 일정</strong>:
+                <br>• 기자재 조달 계획 지원: 2026년 1Q ~ 2028년 1Q (총 24개월)
+                <br>• 기자재 설치 및 합동 검수: 2027년 2Q ~ 2028년 4Q (총 21개월)
+              </li>
+              <li style="margin-bottom: 8px;"><strong>거점(H형) 우선 지원</strong>: 기자재 조달은 교육 콘텐츠 개발과 ToT 강사 양성을 총괄하는 KOICA Al-Khwarizmi Hub형 센터(누쿠스, 카르시)에 우선적으로 보급을 실행하고, 이후 14개의 L형 IT Village로 순차 확대 보급합니다.</li>
+              <li><strong>대안적 교육 보급안</strong>: 만약 H형 Hub 센터 전체 건축 리모델링이 행정상 지연되는 경우, 기자재 조달 계획에 의거하여 **기본 PC 실습실 (Basic PC Lab) 1개실을 우선적으로 긴급 개설**하고 기자재를 조달하여 강사 교재 개발 및 멘토 양성을 선제 지원할 수 있도록 유연한 비상 계획을 마련하고 있습니다.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -330,5 +957,22 @@
   </footer>
 
   <script src="../js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const spaceTabs = document.querySelectorAll('.performance-tab');
+      const spaceContents = document.querySelectorAll('.performance-tab-content');
+
+      spaceTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          spaceTabs.forEach(t => t.classList.remove('active'));
+          spaceContents.forEach(c => c.classList.remove('active'));
+
+          tab.classList.add('active');
+          const target = tab.dataset.target;
+          document.getElementById(target).classList.add('active');
+        });
+      });
+    });
+  </script>
 </body>
 </html>
