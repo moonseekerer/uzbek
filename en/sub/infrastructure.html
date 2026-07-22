@@ -46,31 +46,34 @@
       </a>
       
       <nav>
-        <ul class="gnb-list">
+                <ul class="gnb-list">
           <li class="gnb-item">
             <a href="greeting.html" class="gnb-link">Overview</a>
             <div class="dropdown">
               <a href="greeting.html" class="dropdown-link">Greeting</a>
-              <a href="introduction.html" class="dropdown-link">Introduction</a>
+              <a href="introduction.html" class="dropdown-link">Project Introduction</a>
               <a href="partners.html" class="dropdown-link">Partnership</a>
               <a href="contact.html" class="dropdown-link">Contact Us</a>
             </div>
           </li>
           <li class="gnb-item">
-            <a href="infrastructure.html" class="gnb-link">Key Projects</a>
-            <div class="dropdown">
+            <a href="infrastructure.html" class="gnb-link">Core Projects</a>
+            <div class="dropdown" style="min-width: 340px;">
+              <span class="dropdown-label">Output 1. Improved IT Infrastructure (Building & Equipment)</span>
               <a href="infrastructure.html" class="dropdown-link">IT Infrastructure</a>
               <a href="centers.html" class="dropdown-link">Center Types</a>
-              <a href="training.html" class="dropdown-link">IT Education & ToT</a>
-              <a href="employment.html" class="dropdown-link">Career Support</a>
-              <a href="performance.html" class="dropdown-link">Performance Progress</a>
+              <span class="dropdown-label">Output 2. Institutional Capacity (Operating Model & Curricula)</span>
+              <a href="training.html" class="dropdown-link">IT Curriculum & Textbooks</a>
+              <span class="dropdown-label">Output 3. Human Resource Capacity (ToT & Career Support)</span>
+              <a href="training.html#tot" class="dropdown-link">Teacher & Operator Training</a>
+              <a href="employment.html" class="dropdown-link">Youth Career Support</a>
             </div>
           </li>
           <li class="gnb-item">
-            <a href="gallery.html" class="gnb-link">News & Media</a>
-            <div class="dropdown">
-              <a href="gallery.html" class="dropdown-link">Activity Gallery</a>
-            </div>
+            <a href="performance.html" class="gnb-link">Performance Progress</a>
+          </li>
+          <li class="gnb-item">
+            <a href="gallery.html" class="gnb-link">Activity Gallery</a>
           </li>
         </ul>
       </nav>
@@ -94,16 +97,36 @@
   <!-- Mobile Sidebar Navigation -->
   <aside class="mobile-nav">
     <button class="mobile-nav-close" aria-label="Open Menu">&times;</button>
-    <div class="mobile-gnb">
+        <div class="mobile-gnb">
       <div class="mobile-gnb-item">
         <span class="mobile-gnb-link">Overview</span>
         <ul class="mobile-sub-list">
           <li class="mobile-sub-item"><a href="greeting.html" class="mobile-sub-link">Greeting</a></li>
-          <li class="mobile-sub-item"><a href="introduction.html" class="mobile-sub-link">Introduction</a></li>
+          <li class="mobile-sub-item"><a href="introduction.html" class="mobile-sub-link">Project Introduction</a></li>
           <li class="mobile-sub-item"><a href="partners.html" class="mobile-sub-link">Partnership</a></li>
           <li class="mobile-sub-item"><a href="contact.html" class="mobile-sub-link">Contact Us</a></li>
         </ul>
       </div>
+      <div class="mobile-gnb-item">
+        <span class="mobile-gnb-link">Core Projects</span>
+        <ul class="mobile-sub-list">
+          <span class="mobile-sub-label">Output 1. IT Infrastructure</span>
+          <li class="mobile-sub-item"><a href="infrastructure.html" class="mobile-sub-link">IT Infrastructure</a></li>
+          <li class="mobile-sub-item"><a href="centers.html" class="mobile-sub-link">Center Types</a></li>
+          <span class="mobile-sub-label">Output 2. Institutional Capacity</span>
+          <li class="mobile-sub-item"><a href="training.html" class="mobile-sub-link">IT Curriculum & Textbooks</a></li>
+          <span class="mobile-sub-label">Output 3. Human Resource Capacity</span>
+          <li class="mobile-sub-item"><a href="training.html#tot" class="mobile-sub-link">Teacher & Operator Training</a></li>
+          <li class="mobile-sub-item"><a href="employment.html" class="mobile-sub-link">Youth Career Support</a></li>
+        </ul>
+      </div>
+      <div class="mobile-gnb-item">
+        <a href="performance.html" class="mobile-gnb-link" style="display:block;">Performance Progress</a>
+      </div>
+      <div class="mobile-gnb-item">
+        <a href="gallery.html" class="mobile-gnb-link" style="display:block;">Activity Gallery</a>
+      </div>
+    </div>
       <div class="mobile-gnb-item">
         <span class="mobile-gnb-link">Key Projects</span>
         <ul class="mobile-sub-list">
@@ -136,15 +159,31 @@
   <!-- Main Content Layout -->
   <div class="container sub-layout">
     <!-- Sidebar -->
-    <aside class="sub-sidebar">
-      <h3 class="sidebar-title">Key Projects</h3>
-      <ul>
-        <li class="sidebar-menu-item"><a href="infrastructure.html" class="sidebar-menu-link active">IT Infrastructure</a></li>
-        <li class="sidebar-menu-item"><a href="centers.html" class="sidebar-menu-link">Center Types</a></li>
-        <li class="sidebar-menu-item"><a href="training.html" class="sidebar-menu-link">IT Education & ToT</a></li>
-        <li class="sidebar-menu-item"><a href="employment.html" class="sidebar-menu-link">Career Support</a></li>
-        <li class="sidebar-menu-item"><a href="performance.html" class="sidebar-menu-link">Performance Progress</a></li>
-      </ul>
+        <aside class="sub-sidebar">
+      <h3 class="sidebar-title">Core Projects</h3>
+      
+      <div class="sidebar-group">
+        <span class="sidebar-group-title">Output 1. IT Infrastructure</span>
+        <ul>
+          <li class="sidebar-menu-item"><a href="infrastructure.html" class="sidebar-menu-link active">IT Infrastructure</a></li>
+          <li class="sidebar-menu-item"><a href="centers.html" class="sidebar-menu-link ">Center Types</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-group">
+        <span class="sidebar-group-title">Output 2. Institutional Capacity</span>
+        <ul>
+          <li class="sidebar-menu-item"><a href="training.html" class="sidebar-menu-link ">IT Curriculum & Textbooks</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-group">
+        <span class="sidebar-group-title">Output 3. Human Resource Capacity</span>
+        <ul>
+          <li class="sidebar-menu-item"><a href="training.html#tot" class="sidebar-menu-link">Teacher & Operator Training</a></li>
+          <li class="sidebar-menu-item"><a href="employment.html" class="sidebar-menu-link ">Youth Career Support</a></li>
+        </ul>
+      </div>
     </aside>
 
     <!-- Content Area -->

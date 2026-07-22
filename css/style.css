@@ -2507,4 +2507,60 @@ footer {
 .pdm-badge.outcome { background: rgba(22, 163, 74, 0.1); color: #16a34a; }
 .pdm-badge.output { background: rgba(234, 88, 12, 0.1); color: #ea580c; }
 
+/* ==========================================================================
+   PDM Output Menu & Sidebar Grouping Styles
+   ========================================================================== */
+.dropdown-label {
+  display: block;
+  padding: 10px 14px 4px 14px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 1px dashed var(--border);
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+
+.dropdown-label:first-child {
+  margin-top: 0;
+}
+
+.mobile-sub-label {
+  display: block;
+  padding: 8px 14px 4px 14px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background-color: #f1f5f9;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
+
+.mobile-sub-label:first-child {
+  margin-top: 0;
+}
+
+.sidebar-group {
+  margin-bottom: 24px;
+}
+
+.sidebar-group-title {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding-left: 12px;
+  margin-bottom: 10px;
+  border-left: 3px solid var(--primary);
+  line-height: 1.4;
+}
+
+
 
