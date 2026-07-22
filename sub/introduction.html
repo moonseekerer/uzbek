@@ -196,6 +196,260 @@
         </div>
       </div>
 
+      <!-- PDM Logical Model Dashboard Section -->
+      <div class="pdm-section">
+        <h3 class="pdm-title">📊 사업 논리모형 (Project Design Matrix - PDM)</h3>
+        <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 20px;">
+          본 사업은 체계적인 ODA 성과 관리를 위해 아래와 같은 PDM 논리 구조를 기반으로 설계 및 수행됩니다. 탭을 클릭하여 각 성과 레벨과 세부 계획을 확인하십시오.
+        </p>
+
+        <!-- PDM Tabs -->
+        <div class="pdm-tabs">
+          <button class="pdm-tab active" data-target="pdm-logical">논리 프레임워크 (Impact/Outcome/Output)</button>
+          <button class="pdm-tab" data-target="pdm-activities">세부 활동 계획 (Activities)</button>
+          <button class="pdm-tab" data-target="pdm-inputs">투입 및 선행 조건 (Inputs/Pre-conditions)</button>
+        </div>
+
+        <!-- PDM Tab 1: Logical Framework -->
+        <div id="pdm-logical" class="pdm-content active">
+          <!-- Impact Level -->
+          <span class="pdm-badge impact">Impact (장기 영향)</span>
+          <div class="pdm-grid" style="margin-bottom: 30px;">
+            <div class="pdm-card" style="grid-column: span 2;">
+              <div class="pdm-card-header">요약 (Narrative Summary)</div>
+              <div class="pdm-card-body"><strong>소외지역 청소년의 디지털 역량 강화와 취창업 확대를 통한 포용적 경제성장에 기여 (SDG 4.4)</strong></div>
+            </div>
+            <div class="pdm-card">
+              <div class="pdm-card-header">검증 수단 (Means of Verification)</div>
+              <div class="pdm-card-body">우즈베키스탄 정부 공식 디지털 지표 및 국가 고용 통계 데이터 보고서</div>
+            </div>
+            <div class="pdm-card">
+              <div class="pdm-card-header">중요 가정 (Assumptions)</div>
+              <div class="pdm-card-body">우즈베키스탄의 정치‧경제 상황과 디지털·청년고용 정책이 안정적으로 유지됨</div>
+            </div>
+          </div>
+
+          <!-- Outcome Level -->
+          <span class="pdm-badge outcome">Outcome (중기 성과)</span>
+          <div class="pdm-grid" style="margin-bottom: 30px;">
+            <div class="pdm-card" style="grid-column: span 2;">
+              <div class="pdm-card-header">요약 (Narrative Summary)</div>
+              <div class="pdm-card-body"><strong>소외지역 청소년의 향상된 IT 교육 접근성 및 취창업 역량</strong></div>
+            </div>
+            <div class="pdm-card">
+              <div class="pdm-card-header">검증 지표 & 수단</div>
+              <div class="pdm-card-body">
+                • <strong>강사 및 학생 디지털 역량</strong>: 사전/사후 평가 도구를 활용한 검증 및 결과보고서
+              </div>
+            </div>
+            <div class="pdm-card">
+              <div class="pdm-card-header">중요 가정 (Assumptions)</div>
+              <div class="pdm-card-body">우즈벡 정부의 디지털 교육 확대, 청년고용 기조가 유지되고, 참여 인력이 중도 이탈 없이 활동함</div>
+            </div>
+          </div>
+
+          <!-- Output Level Accordions -->
+          <span class="pdm-badge output">Outputs (산출물별 상세)</span>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            
+            <!-- Output 1 -->
+            <div class="pdm-accordion">
+              <div class="pdm-accordion-header">산출물 1. 개선된 IT교육 인프라 역량 (건축 및 기자재)</div>
+              <div class="pdm-accordion-content">
+                <div class="pdm-grid">
+                  <div class="pdm-card" style="grid-column: span 2;">
+                    <div class="pdm-card-header">세부 내용</div>
+                    <div class="pdm-card-body">
+                      • <strong>1.1.1</strong> KOICA Al-Khwarizmi Hub형 교육센터 리모델링 (2개)<br>
+                      • <strong>1.1.2</strong> KOICA IT Village Local형 교육센터 신축 (14개)<br>
+                      • <strong>1.2.1/1.2.2</strong> Hub형(2개소) 및 Local형(14개소) IT 교육용 표준 기자재 적기 조달 및 공급
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">검증 지표 및 수단</div>
+                    <div class="pdm-card-body">
+                      • MDT 준공 승인문서<br>
+                      • 시공사 준공서류<br>
+                      • 기자재 검수조서 및 소유권 이전 확인서
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">중요 가정 (Assumptions)</div>
+                    <div class="pdm-card-body">
+                      • 완공 센터가 타 용도로 전환되지 않고 IT 교육 목적으로만 활용됨<br>
+                      • 강사들이 기자재 사용법을 숙지하여 정규 실습에 적극 활용함
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Output 2 -->
+            <div class="pdm-accordion">
+              <div class="pdm-accordion-header">산출물 2. 강화된 IT교육 제도적 역량 (표준 운영모델 및 커리큘럼)</div>
+              <div class="pdm-accordion-content">
+                <div class="pdm-grid">
+                  <div class="pdm-card" style="grid-column: span 2;">
+                    <div class="pdm-card-header">세부 내용</div>
+                    <div class="pdm-card-body">
+                      • <strong>2.1.1</strong> 센터 표준 운영모델 및 지침 수립 (1종 / 영어, 우즈벡어, 카라칼파크어)<br>
+                      • <strong>2.2.1</strong> 수준별 IT 교육과정 개발 및 고도화 (17종 / 영어, 우즈벡어, 카라칼파크어)<br>
+                      • <strong>2.3.1</strong> 교육 연계 수준별 교보재 개발 및 보급 (17종 / 우즈벡어, 카라칼파크어)
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">검증 지표 및 수단</div>
+                    <div class="pdm-card-body">
+                      • 표준 운영모델 지침서 수립 보고서<br>
+                      • 17종 교육과정 개발 보고서<br>
+                      • 교보재 제작 및 배포 확인서
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">중요 가정 (Assumptions)</div>
+                    <div class="pdm-card-body">
+                      • 디지털기술부(MDT)가 수립된 표준 모델을 국가 기준 운영 가이드라인으로 수용함<br>
+                      • 개발된 IT 교재가 학생들의 눈높이에 맞고 지역 시장 수요와 직무 연계성을 가짐
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Output 3 -->
+            <div class="pdm-accordion">
+              <div class="pdm-accordion-header">산출물 3. 개발된 IT교육 인적자원 역량 (교사/운영자 연수 및 취창업)</div>
+              <div class="pdm-accordion-content">
+                <div class="pdm-grid">
+                  <div class="pdm-card" style="grid-column: span 2;">
+                    <div class="pdm-card-header">세부 내용</div>
+                    <div class="pdm-card-body">
+                      • <strong>3.1.1/2/3</strong> 선도강사 양성 초청연수(26명), 현지연수(26명*2회), 일반강사 현지연수(416명*6회)<br>
+                      • <strong>3.2.1/2</strong> 정책입안자 초청연수(10명) 및 센터 관리자 운영역량강화 현지연수(48명*5회)<br>
+                      • <strong>3.3.1</strong> 청소년 맞춤형 취창업 역량강화 프로그램 수혜자 수 (660명 / 취약계층 20% 이상)<br>
+                      • <strong>3.4.1/2/3/4</strong> 디지털 역량평가 도구(1건) 개발 및 피평가 학생 적용, 일반 청소년 IT 교육 수료생 수 (4,950명 / 취약계층 20% 이상), IT 모니터링 환류(8회)
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">검증 지표 및 수단</div>
+                    <div class="pdm-card-body">
+                      • 초청/현지연수 수료증 발급 내역<br>
+                      • 프로그램 참가자 명단 및 만족도 보고서<br>
+                      • 성과관리계획서 기반 기초선/중간선/종료선 평가 및 수료증 데이터
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">중요 가정 (Assumptions)</div>
+                    <div class="pdm-card-body">
+                      • 연수 성과가 기관 내부 인수인계 및 기록물 축적으로 관리되어 인력 교체 시 손실을 예방함<br>
+                      • 교육을 수료한 청소년들이 지속적인 경력 개발 동기를 갖고 진로 추적 조사에 성실히 응함
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- PDM Tab 2: Detailed Activities -->
+        <div id="pdm-activities" class="pdm-content">
+          <div class="pdm-table-wrapper">
+            <table class="pdm-table">
+              <thead>
+                <tr>
+                  <th style="width: 25%;">핵심 Component</th>
+                  <th>PDM 세부 활동 내용 (Activities)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Component 1<br>교육 인프라 역량 개선</strong></td>
+                  <td>
+                    • <strong>1.1 교육센터 건축 및 리모델링</strong><br>
+                    &nbsp;&nbsp;- 교육센터 대상 부지 확정 및 유형별 설계/구축 지침 수립<br>
+                    &nbsp;&nbsp;- 현지 건축입찰 관리, 시공사 계약 모니터링<br>
+                    &nbsp;&nbsp;- 거점형(H형) 2개소 리모델링 및 지역형(L형) 14개소 신축 감독<br>
+                    • <strong>1.2 교육센터 정보화 기자재 보급</strong><br>
+                    &nbsp;&nbsp;- 교육과정 맞춤형 실습 기자재 리스트 확정 및 조달계획 지침 설계<br>
+                    &nbsp;&nbsp;- 현지 입찰공고 및 공급사 검수, 소유권 이전 및 정상작동 유지보수 교육 실행
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Component 2<br>IT교육 제도 역량 강화</strong></td>
+                  <td>
+                    • <strong>2.1 IT 교육센터 표준 운영모델 수립</strong><br>
+                    &nbsp;&nbsp;- 센터별 관리 기능 및 표준 R&R(역할) 정의 및 시범 운영을 통한 가이드라인 보완<br>
+                    • <strong>2.2 교육과정 개발 및 고도화</strong><br>
+                    &nbsp;&nbsp;- 현지 청소년 및 ICT 노동시장 수요조사를 통한 수준별/트랙별 17종 교육과정 개발 및 개정<br>
+                    • <strong>2.3 다국어 교보재 보급</strong><br>
+                    &nbsp;&nbsp;- 개발 교육과정 연계 수준별 교재 제작 및 지역어(우즈베크어, 카라칼파크어) 번역 배포
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Component 3<br>IT교육 인적 역량 개발</strong></td>
+                  <td>
+                    • <strong>3.1 교육 강사 역량 강화</strong><br>
+                    &nbsp;&nbsp;- 국내 초청연수(마스터멘토) 및 단계적 현지 ToT 연수를 통한 지역 교사 풀 확보<br>
+                    • <strong>3.2 센터 운영인력 역량 강화</strong><br>
+                    &nbsp;&nbsp;- 정책입안자 초청연수 및 센터 실무자 대상 행정·운영 노하우 현지 집중 연수<br>
+                    • <strong>3.3 청소년 취창업 및 연계 프로그램</strong><br>
+                    &nbsp;&nbsp;- 경진대회, 기업 네트워킹, 인턴십 매칭 워크숍 운영<br>
+                    • <strong>3.4 교육 모니터링 및 디지털 평가 도구 적용</strong><br>
+                    &nbsp;&nbsp;- 디지털 역량 자가진단 및 평가 도구 개발/적용, 정기 모니터링 및 기초선/중간선/종료선 추적
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- PDM Tab 3: Inputs & Pre-conditions -->
+        <div id="pdm-inputs" class="pdm-content">
+          <div class="pdm-grid">
+            
+            <!-- KOICA Inputs -->
+            <div class="pdm-card">
+              <div class="pdm-card-header">🔵 한국 측 투입 (KOICA)</div>
+              <div class="pdm-card-body">
+                • <strong>총 사업 예산</strong>: 1,400만불 (약 193억원)<br>
+                • <strong>사업 기간</strong>: 2026년 ~ 2032년 (7개년)<br>
+                • <strong>전문가 파견 풀</strong>:<br>
+                &nbsp;&nbsp;- 총괄관리(PM), 부총괄(FM), 프로젝트 코디네이터(PAO)<br>
+                &nbsp;&nbsp;- ODA 성과관리 전문가<br>
+                &nbsp;&nbsp;- 디지털 문해력 및 기술 교육 전문가<br>
+                &nbsp;&nbsp;- IT 센터 운영 및 관리 전문가<br>
+                &nbsp;&nbsp;- 건축 리모델링 및 IT 기자재 설계 감리 전문가
+              </div>
+            </div>
+
+            <!-- Uzbek Inputs -->
+            <div class="pdm-card">
+              <div class="pdm-card-header">🟢 우즈베키스탄 측 투입 (DT / DEDC)</div>
+              <div class="pdm-card-body">
+                • <strong>부지 및 기반 제공</strong>: H형 및 L형 교육센터 용 부지 제공 및 기부채납<br>
+                • <strong>건축/리모델링 총괄</strong>: 협약된 가이드라인 기반 현지 입찰 및 준공 총괄 (PBA 방식)<br>
+                • <strong>표준 기자재 현지 조달</strong>: 현지 입찰, 통관(영세율 면세 혜택 처리), 내륙 운송, 정상 인수 및 소유권 이전<br>
+                • <strong>대상 인력 모집</strong>: 교육 강사, 연수 참여자, 교육 수혜 청소년 적격 모집<br>
+                • <strong>행정 지원</strong>: 전문가 파견 행정 전반 협조
+              </div>
+            </div>
+
+            <!-- Pre-conditions -->
+            <div class="pdm-card" style="grid-column: span 2;">
+              <div class="pdm-card-header">⚠️ 선행 조건 (Pre-conditions)</div>
+              <div class="pdm-card-body" style="font-size: 0.85rem;">
+                • 사업 개시를 위한 수원기관의 센터 예정 부지 소유권 확정 및 제공이 선행되어야 함<br>
+                • KOICA와 수원국 정부 간 건축 범위, 공무원 파견 규모, 보고 체계에 대한 사전 합의가 완료되어야 함<br>
+                • 기자재 반입 시 관세 및 부가가치세 면세(영세율 통관) 승인이 적기에 이루어져야 함<br>
+                • 완공된 센터의 연도별 전기, 고속 통신선 인프라의 공급 자금 및 운영 인건비 예산 지원 의지가 확인되어야 함
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
       <!-- 7 Years Timeline -->
       <div style="margin-top: 50px;">
         <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--dark); margin-bottom: 20px;">연도별 주요 추진 계획</h3>
@@ -277,5 +531,33 @@
   </footer>
 
   <script src="../js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // PDM Tabs Functionality
+      const tabs = document.querySelectorAll('.pdm-tab');
+      const contents = document.querySelectorAll('.pdm-content');
+
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('active'));
+          contents.forEach(c => c.classList.remove('active'));
+
+          tab.classList.add('active');
+          const target = tab.dataset.target;
+          document.getElementById(target).classList.add('active');
+        });
+      });
+
+      // Accordion Functionality
+      const accordions = document.querySelectorAll('.pdm-accordion');
+      accordions.forEach(acc => {
+        const header = acc.querySelector('.pdm-accordion-header');
+        header.addEventListener('click', () => {
+          // Toggle current accordion
+          acc.classList.toggle('open');
+        });
+      });
+    });
+  </script>
 </body>
 </html>

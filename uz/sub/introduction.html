@@ -195,6 +195,260 @@
         </div>
       </div>
 
+      <!-- PDM Logical Model Dashboard Section -->
+      <div class="pdm-section">
+        <h3 class="pdm-title">📊 Loyihaning mantiqiy modeli (Project Design Matrix - PDM)</h3>
+        <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 20px;">
+          Ushbu loyiha tizimli ODA natijalarini boshqarish uchun quyidagi PDM mantiqiy tuzilmasiga muvofiq ishlab chiqilgan va amalga oshiriladi. Natijalar darajasi va batafsil rejalarni ko'rish uchun yorliqlarni bosing.
+        </p>
+
+        <!-- PDM Tabs -->
+        <div class="pdm-tabs">
+          <button class="pdm-tab active" data-target="pdm-logical">Mantiqiy tuzilma (Impact/Outcome/Output)</button>
+          <button class="pdm-tab" data-target="pdm-activities">Batafsil faoliyat rejasi</button>
+          <button class="pdm-tab" data-target="pdm-inputs">Kiritilgan resurslar va shartlar</button>
+        </div>
+
+        <!-- PDM Tab 1: Logical Framework -->
+        <div id="pdm-logical" class="pdm-content active">
+          <!-- Impact Level -->
+          <span class="pdm-badge impact">Impact (Uzoq muddatli ta'sir)</span>
+          <div class="pdm-grid" style="margin-bottom: 30px;">
+            <div class="pdm-card" style="grid-column: span 2;">
+              <div class="pdm-card-header">Loyiha qisqacha mazmuni</div>
+              <div class="pdm-card-body"><strong>Chekka hududlardagi yoshlarning raqamli salohiyatini oshirish va bandlik hamda tadbirkorlik imkoniyatlarini kengaytirish orqali inklyuziv iqtisodiy o'sishga hissa qo'shish (SDG 4.4)</strong></div>
+            </div>
+            <div class="pdm-card">
+              <div class="pdm-card-header">Tekshirish vositalari</div>
+              <div class="pdm-card-body">O'zbekiston hukumatining rasmiy raqamli ko'rsatkichlari va milliy bandlik statistikasi hisobotlari</div>
+            </div>
+            <div class="pdm-card">
+              <div class="pdm-card-header">Muhim taxminlar (Assumptions)</div>
+              <div class="pdm-card-body">O'zbekistondagi siyosiy va iqtisodiy vaziyat hamda raqamli va yoshlar bandligi siyosati barqaror saqlanadi.</div>
+            </div>
+          </div>
+
+          <!-- Outcome Level -->
+          <span class="pdm-badge outcome">Outcome (O'rta muddatli natija)</span>
+          <div class="pdm-grid" style="margin-bottom: 30px;">
+            <div class="pdm-card" style="grid-column: span 2;">
+              <div class="pdm-card-header">Loyiha qisqacha mazmuni</div>
+              <div class="pdm-card-body"><strong>Chekka hududlardagi yoshlarning IT ta'limiga kirish imkoniyati va karyera salohiyati yaxshilanishi</strong></div>
+            </div>
+            <div class="pdm-card">
+              <div class="pdm-card-header">Ko'rsatkichlar va Tekshirish</div>
+              <div class="pdm-card-body">
+                • <strong>O'qituvchi va O'quvchi salohiyati</strong>: Boshlang'ich va yakuniy hisobotlar orqali baholanadi.
+              </div>
+            </div>
+            <div class="pdm-card">
+              <div class="pdm-card-header">Muhim taxminlar (Assumptions)</div>
+              <div class="pdm-card-body">Hukumatning IT ta'limini kengaytirish siyosati saqlanib qoladi, ishtirokchilar o'qishni oxirigacha yakunlaydi.</div>
+            </div>
+          </div>
+
+          <!-- Output Level Accordions -->
+          <span class="pdm-badge output">Outputs (Batafsil natijalar komponenti)</span>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            
+            <!-- Output 1 -->
+            <div class="pdm-accordion">
+              <div class="pdm-accordion-header">Output 1. Yaxshilangan IT ta'lim infratuzilmasi salohiyati (Qurilish va Uskunalar)</div>
+              <div class="pdm-accordion-content">
+                <div class="pdm-grid">
+                  <div class="pdm-card" style="grid-column: span 2;">
+                    <div class="pdm-card-header">Batafsil</div>
+                    <div class="pdm-card-body">
+                      • <strong>1.1.1</strong> 2 ta KOICA Al-Khwarizmi Hub tipidagi markaz rekonstruksiya qilinishi<br>
+                      • <strong>1.1.2</strong> 14 ta KOICA IT Village Local tipidagi markaz qurilishi<br>
+                      • <strong>1.2.1/1.2.2</strong> Hub (2) va Local (14) markazlari uchun IT uskunalari yetkazib berilishi va o'rnatilishi
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">Ko'rsatkichlar va Tekshirish</div>
+                    <div class="pdm-card-body">
+                      • Binolarni qabul qilish hujjatlari (MDT)<br>
+                      • Qurilish yakunlash hisobotlari<br>
+                      • Uskunalarni tekshirish va egalik huquqini o'tkazish dalolatnomalari
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">Muhim taxminlar (Assumptions)</div>
+                    <div class="pdm-card-body">
+                      • Binolar faqat IT ta'limi uchun ishlatiladi va boshqa maqsadlarga o'tkazilmaydi<br>
+                      • O'qituvchilar uskunalardan dars jarayonlarida faol foydalanishadi
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Output 2 -->
+            <div class="pdm-accordion">
+              <div class="pdm-accordion-header">Output 2. IT ta'limning tashkiliy salohiyatini kuchaytirish (Standart model va Kurslar)</div>
+              <div class="pdm-accordion-content">
+                <div class="pdm-grid">
+                  <div class="pdm-card" style="grid-column: span 2;">
+                    <div class="pdm-card-header">Batafsil</div>
+                    <div class="pdm-card-body">
+                      • <strong>2.1.1</strong> Standart boshqaruv modeli va qo'llanmalari (ingliz, o'zbek, qoraqalpoq tillarida 1 ta standart)<br>
+                      • <strong>2.2.1</strong> IT o'quv dasturlarini ishlab chiqish va yangilash (ingliz, o'zbek, qoraqalpoq tillarida 17 tur)<br>
+                      • <strong>2.3.1</strong> O'quv qo'llanmalarini ishlab chiqish va tarqatish (o'zbek, qoraqalpoq tillarida 17 tur)
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">Ko'rsatkichlar va Tekshirish</div>
+                    <div class="pdm-card-body">
+                      • Boshqaruv modeli qo'llanma hisobotlari<br>
+                      • O'quv dasturlari ishlab chiqish hisobotlari<br>
+                      • Darsliklar chop etish va tarqatish hujjatlari
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">Muhim taxminlar (Assumptions)</div>
+                    <div class="pdm-card-body">
+                      • Raqamli texnologiyalar vazirligi standart modelni rasmiy qo'llanma sifatida qabul qiladi<br>
+                      • O'quv dasturlari mehnat bozori ehtiyojlariga mos keladi
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Output 3 -->
+            <div class="pdm-accordion">
+              <div class="pdm-accordion-header">Output 3. IT ta'lim inson resurslari salohiyatini oshirish (ToT va Yoshlar dasturlari)</div>
+              <div class="pdm-accordion-content">
+                <div class="pdm-grid">
+                  <div class="pdm-card" style="grid-column: span 2;">
+                    <div class="pdm-card-header">Batafsil</div>
+                    <div class="pdm-card-body">
+                      • <strong>3.1.1/2/3</strong> Master mentorlarni Koreyada o'qitish (26 nafar), mahalliy ToT kurslari (26 nafar * 2 marta), oddiy o'qituvchilarni o'qitish (416 nafar * 6 marta)<br>
+                      • <strong>3.2.1/2</strong> Davlat xizmatchilarini Koreyada o'qitish (10 nafar), markaz rahbarlarini o'qitish (48 nafar * 5 marta)<br>
+                      • <strong>3.3.1</strong> Yoshlar bandligi va startap dasturlari ishtirokchilari (660 nafar, kamida 20% ehtiyojmand qatlam)<br>
+                      • <strong>3.4.1/2/3/4</strong> Baholash vositasini yaratish va qo'llash, o'quvchilar soni (4,950 nafar, kamida 20% ehtiyojmand), monitoring davrlari (8 marta)
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">Ko'rsatkichlar va Tekshirish</div>
+                    <div class="pdm-card-body">
+                      • O'quv kurslarini tugatganlik sertifikatlari<br>
+                      • Ishtirokchilar ro'yxati va qoniqish so'rovnomalari hisoboti<br>
+                      • Boshlang'ich, oraliq va yakuniy baholash ma'lumotlari
+                    </div>
+                  </div>
+                  <div class="pdm-card">
+                    <div class="pdm-card-header">Muhim taxminlar (Assumptions)</div>
+                    <div class="pdm-card-body">
+                      • Kadrlar o'zgarganda bilim yo'qolmasligi uchun hisobotlar va arxiv tizimi saqlanadi<br>
+                      • Yoshlar monitoring so'rovnomalarida faol ishtirok etadi
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- PDM Tab 2: Detailed Activities -->
+        <div id="pdm-activities" class="pdm-content">
+          <div class="pdm-table-wrapper">
+            <table class="pdm-table">
+              <thead>
+                <tr>
+                  <th style="width: 25%;">Asosiy komponent</th>
+                  <th>PDM batafsil faoliyat rejasi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Component 1<br>Infratuzilma</strong></td>
+                  <td>
+                    • <strong>1.1 Markazlarni qurish va rekonstruksiya qilish</strong><br>
+                    &nbsp;&nbsp;- Joylarni tasdiqlash va dizayn yo'riqnomalarini ishlab chiqish<br>
+                    &nbsp;&nbsp;- Mahalliy tenderlarni boshqarish va shartnomalar tuzish nazorati<br>
+                    &nbsp;&nbsp;- 2 ta Hub markazini ta'mirlash va 14 ta Local markazlarini qurish nazorati<br>
+                    • <strong>1.2 IT uskunalarini yetkazib berish</strong><br>
+                    &nbsp;&nbsp;- Kurslarga mos uskunalar ro'yxatini shakllantirish va xarid rejasi tuzish<br>
+                    &nbsp;&nbsp;- Mahalliy tender, yetkazish, o'rnatish, qabul qilish va xizmat ko'rsatish treninglari
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Component 2<br>Tashkiliy salohiyat</strong></td>
+                  <td>
+                    • <strong>2.1 IT markaz standart boshqaruv modeli</strong><br>
+                    &nbsp;&nbsp;- Vazifalarni belgilash, qo'llanma tayyorlash va sinov tariqasida ishlatish<br>
+                    • <strong>2.2 O'quv dasturlarini ishlab chiqish</strong><br>
+                    &nbsp;&nbsp;- Yoshlar va mehnat bozori ehtiyojlarini o'rganib 17 turdagi o'quv dasturlarini tayyorlash<br>
+                    • <strong>2.3 Ko'p tilli o'quv darsliklari</strong><br>
+                    &nbsp;&nbsp;- Kitoblar loyihasi, o'zbek va qoraqalpoq tillariga tarjima qilish va tarqatish
+                  </td>
+                </tr>
+                <tr>
+                  <td><strong>Component 3<br>Inson resurslari</strong></td>
+                  <td>
+                    • <strong>3.1 O'qituvchilar salohiyatini oshirish</strong><br>
+                    &nbsp;&nbsp;- Koreyada malaka oshirish va mahalliy ToT kurslarini o'tkazish<br>
+                    • <strong>3.2 Boshqaruv xodimlar salohiyati</strong><br>
+                    &nbsp;&nbsp;- Koreyada malaka oshirish va mahalliy boshqaruv treninglari<br>
+                    • <strong>3.3 Yoshlar karyera va startap dasturlari</strong><br>
+                    &nbsp;&nbsp;- IT xakatonlari, biznes uchrashuvlar va amaliyot o'tash dasturlari<br>
+                    • <strong>3.4 Monitoring va raqamli baholash</strong><br>
+                    &nbsp;&nbsp;- Baholash vositasini yaratish, muntazam monitoring va tadqiqotlar olib borish
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- PDM Tab 3: Inputs & Pre-conditions -->
+        <div id="pdm-inputs" class="pdm-content">
+          <div class="pdm-grid">
+            
+            <!-- KOICA Inputs -->
+            <div class="pdm-card">
+              <div class="pdm-card-header">🔵 Koreya tomoni kiritgan resurslar (KOICA)</div>
+              <div class="pdm-card-body">
+                • <strong>Jami byudjet</strong>: $14.0 million (taxminan 19.3 milliard KRW)<br>
+                • <strong>Loyiha muddati</strong>: 2026 ~ 2032 yillar (7 yil)<br>
+                • <strong>Mutaxassislar</strong>:<br>
+                &nbsp;&nbsp;- Loyiha menejeri (PM), Joylardagi menejer (FM), Loyiha yordamchisi (PAO)<br>
+                &nbsp;&nbsp;- ODA monitoringi mutaxassisi<br>
+                &nbsp;&nbsp;- Raqamli savodxonlik va IT ta'limi mutaxassisi<br>
+                &nbsp;&nbsp;- IT markaz boshqaruvi mutaxassisi<br>
+                &nbsp;&nbsp;- Qurilish va IT uskunalari bo'yicha mutaxassis
+              </div>
+            </div>
+
+            <!-- Uzbek Inputs -->
+            <div class="pdm-card">
+              <div class="pdm-card-header">🟢 O'zbekiston tomoni kiritgan resurslar (MDT / DEDC)</div>
+              <div class="pdm-card-body">
+                • <strong>Yer ajratish</strong>: H va L markazlari uchun yer ajratish va rasmiylashtirish<br>
+                • <strong>Qurilish tenderlari</strong>: Mahalliy qurilish shartnomalari va qabul qilishni boshqarish (PBA usulida)<br>
+                • <strong>Uskunalar tenderi</strong>: Bidding, bojxona imtiyozlari (nol stavkali QQS) va transport ishlari<br>
+                • <strong>Ishtirokchilarni yig'ish</strong>: O'qituvchilar, mentorlar va o'quvchilarni jalb qilish<br>
+                • <strong>Ma'muriy yordam</strong>: Mutaxassislar faoliyati uchun ma'muriy ko'mak
+              </div>
+            </div>
+
+            <!-- Pre-conditions -->
+            <div class="pdm-card" style="grid-column: span 2;">
+              <div class="pdm-card-header">⚠️ Pre-conditions</div>
+              <div class="pdm-card-body" style="font-size: 0.85rem;">
+                • Loyihani boshlashdan oldin markaz yer uchastkalari Vazirlik tomonidan taqdim etilishi kerak<br>
+                • Qurilish ko'lami va ma'muriy tarkib bo'yicha KOICA va MDT o'rtasidagi kelishuv yakunlanishi kerak<br>
+                • Import qilinadigan uskunalar uchun bojxona to'lovlaridan ozod qilish o'z vaqtida bajarilishi zarur<br>
+                • Kommunal xizmatlar (elektr, yuqori tezlikdagi internet) va markazlar kelgusi xarajatlari kafolatlanishi kerak
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
       <!-- 7 Years Timeline -->
       <div style="margin-top: 50px;">
         <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--dark); margin-bottom: 20px;">Yillik amalga oshirish rejasi</h3>
@@ -266,7 +520,7 @@
       </div>
       
       <div class="footer-bottom">
-        <p class="footer-copy">Copyright &copy; 2026 Gyeongbuk Technopark Konsorsiumi. Barcha huquqlar himoyalangan.</p>
+        <p class="footer-copy">Copyright &copy; 2026 Gyeongbuk Technopark Consortium. Barcha huquqlar himoyalangan.</p>
         <div>
           <a href="#" style="margin-right: 16px; font-size: 0.8rem;">Foydalanish shartlari</a>
           <a href="#" style="font-size: 0.8rem; font-weight: 700; color: var(--primary);">Maxfiylik siyosati</a>
@@ -276,5 +530,32 @@
   </footer>
 
   <script src="../../js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // PDM Tabs Functionality
+      const tabs = document.querySelectorAll('.pdm-tab');
+      const contents = document.querySelectorAll('.pdm-content');
+
+      tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+          tabs.forEach(t => t.classList.remove('active'));
+          contents.forEach(c => c.classList.remove('active'));
+
+          tab.classList.add('active');
+          const target = tab.dataset.target;
+          document.getElementById(target).classList.add('active');
+        });
+      });
+
+      // Accordion Functionality
+      const accordions = document.querySelectorAll('.pdm-accordion');
+      accordions.forEach(acc => {
+        const header = acc.querySelector('.pdm-accordion-header');
+        header.addEventListener('click', () => {
+          acc.classList.toggle('open');
+        });
+      });
+    });
+  </script>
 </body>
 </html>
