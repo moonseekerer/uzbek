@@ -1933,3 +1933,116 @@ footer {
     height: 200px;
   }
 }
+
+/* -----------------------------------------
+   LEAFLET MAP INTERACTIVE VISUALS
+----------------------------------------- */
+#uzb-map {
+  width: 100%;
+  height: 480px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  z-index: 10;
+}
+
+/* Pulsing animated marker */
+.map-pulse-marker {
+  position: relative;
+}
+
+.map-pulse-dot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--primary);
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.map-pulse-ring {
+  border: 3px solid var(--primary);
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: map-pulsate 1.5s ease-out infinite;
+  opacity: 0;
+  z-index: 1;
+}
+
+@keyframes map-pulsate {
+  0% {
+    transform: translate(-50%, -50%) scale(0.1, 0.1);
+    opacity: 0.0;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.2, 1.2);
+    opacity: 0.0;
+  }
+}
+
+/* Customizing Leaflet popups to fit the modern UI theme */
+.leaflet-popup-content-wrapper {
+  background: rgba(255, 255, 255, 0.96) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border) !important;
+  border-radius: 12px !important;
+  box-shadow: var(--shadow-md) !important;
+  padding: 4px;
+}
+
+.leaflet-popup-tip {
+  background: rgba(255, 255, 255, 0.96) !important;
+  border: 1px solid var(--border) !important;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px !important;
+  line-height: 1.5;
+  font-family: 'Inter', 'Noto Sans KR', sans-serif !important;
+}
+
+.map-popup-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--primary);
+  margin-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.map-popup-info {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.map-popup-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.map-popup-info td {
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.map-popup-info tr:last-child td {
+  border-bottom: none;
+}

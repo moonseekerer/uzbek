@@ -6,6 +6,7 @@
   <meta name="description" content="O'zbekistonda yoshlarning IT ta'lim ekotizimini yaxshilash orqali bandlik va tadbirkorlik qobiliyatlarini oshirish loyihasi PMC - IT Infratuzilmasi">
   <title>IT Infratuzilmasi - O'zbekiston yoshlarining IT ta'limi va karyera salohiyatini oshirish PMC</title>
   <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body>
 
@@ -234,9 +235,11 @@
             📍 KOICA Al-khwarizmi Hub (H-turi) Joylashuvi va Infratuzilma holati
           </h4>
           
+          <!-- Interactive Map Container -->
+          <div id="uzb-map"></div>
+          
           <!-- Nukus Info Box -->
-          <div class="infra-map-box">
-            <img src="../../images/map_nukus.png" alt="Nukus Hub yo'ldosh xaritasi" class="infra-map-img">
+          <div class="infra-map-box" style="padding: 24px;">
             <div class="infra-map-info">
               <h5 style="font-size: 1rem; font-weight: 700; color: var(--primary); margin-bottom: 8px;">1. Nukus Hub (Qoraqalpog'iston Respublikasi)</h5>
               <table class="infra-table" style="font-size: 0.85rem; margin-bottom: 0;">
@@ -260,8 +263,7 @@
           </div>
 
           <!-- Karshi Info Box -->
-          <div class="infra-map-box">
-            <img src="../../images/map_karshi.png" alt="Qarshi Hub yo'ldosh xaritasi" class="infra-map-img">
+          <div class="infra-map-box" style="padding: 24px;">
             <div class="infra-map-info">
               <h5 style="font-size: 1rem; font-weight: 700; color: var(--primary); margin-bottom: 8px;">2. Qarshi Hub (Qashqadaryo viloyati)</h5>
               <table class="infra-table" style="font-size: 0.85rem; margin-bottom: 0;">
@@ -383,5 +385,78 @@
   </footer>
 
   <script src="../../js/main.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 1. Initialize Map centered on Uzbekistan
+      const map = L.map('uzb-map', {
+        center: [41.0, 64.0], // Uzbekistan center
+        zoom: 6,
+        scrollWheelZoom: false
+      });
+
+      // 2. Add OpenStreetMap tile layer
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '© OpenStreetMap contributors'
+      }).addTo(map);
+
+      // 3. Custom HTML Pulsing Marker Icon
+      const createPulseIcon = () => {
+        return L.divIcon({
+          className: 'map-pulse-marker',
+          html: '<div class="map-pulse-dot"></div><div class="map-pulse-ring"></div>',
+          iconSize: [20, 20],
+          iconAnchor: [10, 10]
+        });
+      };
+
+      // 4. Coordinates
+      const coords = {
+        nukus: [42.45869, 59.61440],
+        karshi: [38.83800, 65.78499]
+      };
+
+      // 5. Popup Content templates (Uzbek)
+      const popupNukus = `
+        <div class="map-popup-title">🏢 H-01 Nukus Hub</div>
+        <div class="map-popup-info">
+          <table>
+            <tr><td><strong>Hudud</strong></td><td>Qoraqalpog'iston Rep.</td></tr>
+            <tr><td><strong>Koord</strong></td><td>42°45'86.9"N, 59°61'44.0"E</td></tr>
+            <tr><td><strong>Masofa</strong></td><td>Toshkentdan ~810km</td></tr>
+            <tr><td><strong>Infra</strong></td><td>Suv, oqava, isitish tayyor (Elektr: AVR/UPS tavsiya)</td></tr>
+          </table>
+        </div>
+      `;
+
+      const popupKarshi = `
+        <div class="map-popup-title">🏢 H-02 Qarshi Hub</div>
+        <div class="map-popup-info">
+          <table>
+            <tr><td><strong>Hudud</strong></td><td>Qashqadaryo viloyati</td></tr>
+            <tr><td><strong>Koord</strong></td><td>38°83'80.0"N, 65°78'49.9"E</td></tr>
+            <tr><td><strong>Masofa</strong></td><td>Toshkentdan ~400km</td></tr>
+            <tr><td><strong>Infra</strong></td><td>Suv, oqava, isitish tayyor (Elektr: AVR/UPS tavsiya)</td></tr>
+          </table>
+        </div>
+      `;
+
+      // 6. Add Markers and Popups
+      const markerNukus = L.marker(coords.nukus, { icon: createPulseIcon() }).addTo(map);
+      markerNukus.bindPopup(popupNukus);
+
+      const markerKarshi = L.marker(coords.karshi, { icon: createPulseIcon() }).addTo(map);
+      markerKarshi.bindPopup(popupKarshi);
+
+      // 7. Interactive Hover popup trigger
+      markerNukus.on('mouseover', function(e) {
+        this.openPopup();
+      });
+      markerKarshi.on('mouseover', function(e) {
+        this.openPopup();
+      });
+    });
+  </script>
 </body>
 </html>
